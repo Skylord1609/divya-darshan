@@ -25,7 +25,7 @@ Overview The Divya Darshan prototype demonstrates a web + mobile application bui
 Run and deploy your AI Studio app
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1shvjViha6P3kP3Q68X9eP9cfiOQQlgmm
+View your app in AI Studio: https://aistudio.google.com/apps/drive/1S4zbgkgafDH40uCKeKArHP1BiRV4Cd4z?showPreview=true&showAssistant=true
 
 Run Locally
 Prerequisites: Node.js
