@@ -1,0 +1,54 @@
+
+{
+  "title": "Yajurveda",
+  "chapters": [
+    {
+      "chapter": 16,
+      "title": "Shri Rudram (Shatarudriya)",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "ॐ नमस्ते रुद्र मन्यव उतोत इषवे नमः । बाहुभ्यामुत ते नमः ॥",
+          "translation": "Om, Salutations to Rudra's anger and also to His arrow. Salutations to His two arms."
+        },
+        {
+          "verse": 3,
+          "sanskrit": "या ते रुद्र शिवा तनूरघोराऽपापकाशिनी । तया नस्तनुवा शन्तमया गिरिशन्ताभिचाकशीहि ॥",
+          "translation": "O Rudra! That form of yours which is auspicious, not terrific, and which does not reveal any sin, with that most benign form, O dweller of the mountains, reveal yourself to us."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Taittiriya Samhita 1.8.6 - Mahā Mrityunjaya Mantra",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात् ॥",
+          "translation": "Om, We worship the Three-eyed One (Lord Shiva), Who is fragrant and who nourishes all beings. May He liberate us from death for the sake of immortality, even as the cucumber is severed from its bondage (to the creeper)."
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "title": "Isha Upanishad (Final Chapter)",
+      "verses": [
+        {
+          "verse": 0,
+          "sanskrit": "ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते । पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥ ॐ शान्तिः शान्तिः शान्तिः ॥",
+          "translation": "Om, That is complete, this is complete. From completeness, completeness arises. Taking completeness from completeness, completeness remains. Om, Peace, Peace, Peace."
+        },
+        {
+          "verse": 1,
+          "sanskrit": "ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् । तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ॥",
+          "translation": "All this is for habitation by the Lord, whatsoever is individual universe of movement in the universal motion. By that renounced thou shouldst enjoy; lust not after any man’s possession."
+        },
+        {
+          "verse": 2,
+          "sanskrit": "कुर्वन्नेवेह कर्माणि जिजीविषेच्छतँ समाः । एवं त्वयि नान्यथेतोऽस्ति न कर्म लिप्यते नरे ॥",
+          "translation": "Doing verily works in this world one should wish to live a hundred years. Thus it is in thee and not otherwise than this; action cleaves not to a man."
+        }
+      ]
+    }
+  ]
+}

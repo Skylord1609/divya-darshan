@@ -1,0 +1,17 @@
+
+{
+  "title": "The Ramayana",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Bala Kanda - The Boyhood",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "Placeholder Sanskrit text for The Ramayana.",
+          "translation": "Placeholder English translation for The Ramayana."
+        }
+      ]
+    }
+  ]
+}

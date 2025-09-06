@@ -1,0 +1,17 @@
+
+{
+  "title": "The Mahabharata",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Adi Parva - The Book of the Beginning",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "Placeholder Sanskrit text for The Mahabharata.",
+          "translation": "Placeholder English translation for The Mahabharata."
+        }
+      ]
+    }
+  ]
+}

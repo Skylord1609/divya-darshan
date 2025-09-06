@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": 1,
+    "name": "Diwali",
+    "date": "November 1",
+    "description": "The festival of lights, symbolizing the victory of light over darkness and good over evil."
+  },
+  {
+    "id": 2,
+    "name": "Holi",
+    "date": "March 25",
+    "description": "The festival of colors, celebrating the arrival of spring and the triumph of good over evil."
+  },
+  {
+    "id": 3,
+    "name": "Navaratri",
+    "date": "October 3",
+    "description": "A nine-night festival dedicated to the worship of the Goddess Durga in her various forms."
+  },
+  {
+    "id": 4,
+    "name": "Maha Shivaratri",
+    "date": "February 26",
+    "description": "The great night of Shiva, a solemn festival marking the remembrance of overcoming darkness and ignorance."
+  }
+]

@@ -1,0 +1,90 @@
+
+{
+  "title": "Samaveda",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Introduction: The Veda of Melodies",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "सामवेदः - गीतस्य वेदः",
+          "translation": "The Samaveda is the 'Veda of Chants' or 'Knowledge of Melodies.' Unlike the other Vedas, it is not meant to be simply recited but sung. Its verses are primarily drawn from the Rigveda, but they are arranged and adapted with musical notations (sāman) to be chanted during sacred Soma sacrifices and other rituals. It is the origin of Indian classical music and dance, embodying the spiritual power of sound and vibration (Nāda Brahma)."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Hymns to Agni (The Divine Fire)",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "अग्न आ याहि वीतये गृणानो हव्यदातये । नि होता सत्सि बर्हिषि ॥",
+          "translation": "O Agni, come to the feast; praised, to the oblation-offering. Sit as priest on the sacred grass. (This is a chant based on Rigveda 6.16.10)"
+        },
+        {
+          "verse": 2,
+          "sanskrit": "त्वमग्ने यज्ञानां होता विश्वेषां हितः । देवेभिर्मानुषे जने ॥",
+          "translation": "You, Agni, are the priest of all sacrifices, a benefactor to all. Among gods and men. (Chant based on Rigveda 6.16.1)"
+        },
+        {
+          "verse": 3,
+          "sanskrit": "अग्निना रयिमश्नवत् पोषमेव दिवेदिवे । यशसं वीरवत्तमम् ॥",
+          "translation": "Through Agni, one may obtain wealth and prosperity day by day, which shall be glorious and most abounding in heroic sons."
+        },
+        {
+          "verse": 4,
+          "sanskrit": "अग्निं दूतं वृणीमहे होतारं विश्ववेदसम् । अस्य यज्ञस्य सुक्रतुम् ॥",
+          "translation": "We choose Agni, the messenger, the herald, master of all wealth, well skilled in this our sacrifice."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Hymns to Indra (The King of Gods)",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "इन्द्राय साम गायत विप्रा बृहते बृहत् । धर्मकृते विपश्चिते ॥",
+          "translation": "Sing a great song to the great Indra, O wise ones! To the upholder of Dharma, the enlightened one."
+        },
+        {
+          "verse": 2,
+          "sanskrit": "आ तू न इन्द्र कौशिक मन्दसानः सुतं पिब । नव्यमायुः प्र सू तिर कृधि सहस्रसामृषिम् ॥",
+          "translation": "O Indra, son of Kushika, exhilarated, drink the pressed Soma juice. Grant us new life and long life; make me a sage with a thousand songs."
+        },
+        {
+          "verse": 3,
+          "sanskrit": "इन्द्रं विश्वा अवीवृधन्त्समुद्रव्यचसं गिरः । रथीतमं रथीनां वाजानां सत्पतिं पतिम् ॥",
+          "translation": "All our hymns of praise have magnified Indra, who is as expansive as the ocean, the best of charioteers, the lord of treasures, the protector of holy acts."
+        },
+        {
+          "verse": 4,
+          "sanskrit": "इन्द्रः सुतेषु सोमेषु क्रतुं पुनीत उक्थ्यम् । विदे वृधस्य दक्षिणम् ॥",
+          "translation": "When Soma is pressed, Indra purifies his wise power and song, he finds the reward for the worshipper."
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Hymns to Soma (The Divine Nectar)",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "पवस्व देववीतये सोमा देवेभ्यः सुतः । विश्वा वसून्या भर ॥",
+          "translation": "Flow on for the gods' banquet, O Soma, pressed for the gods. Bring all treasures to us."
+        },
+        {
+          "verse": 2,
+          "sanskrit": "परि प्रिया दिवः कविर्वयांसि नप्त्योर्हितः । स्वानैर्याति कविक्रतुः ॥",
+          "translation": "The wise one, beloved of heaven, placed between the two press-boards, goes with his sounds, the wise-minded Soma."
+        },
+        {
+          "verse": 3,
+          "sanskrit": "पुनानो देववीतये सिषासन्वाजसातये । इन्द्रं गच्छतु ते मदः ॥",
+          "translation": "Being purified for the gods' feast, desiring to win treasures, may your exhilarating juice go to Indra."
+        }
+      ]
+    }
+  ]
+}

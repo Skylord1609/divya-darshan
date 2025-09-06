@@ -1,0 +1,25 @@
+
+[
+    { 
+        "id": 1, 
+        "email": "admin@darshan.com", 
+        "name": "Admin", 
+        "role": "admin", 
+        "passwordHash": "hashed_password123",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+        "bio": "Guiding this digital spiritual journey. || Hari Om ||",
+        "followers": [2],
+        "following": [2]
+    },
+    { 
+        "id": 2, 
+        "email": "devotee@darshan.com", 
+        "name": "Devotee", 
+        "role": "devotee", 
+        "passwordHash": "hashed_password123",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+        "bio": "A seeker on the path of Dharma. Exploring ancient wisdom through this beautiful app.",
+        "followers": [1],
+        "following": [1]
+    }
+]

@@ -1,0 +1,114 @@
+
+[
+    {
+        "id": 1,
+        "name": "Himalayan Char Dham Yatra",
+        "description": "Embark on the ultimate spiritual pilgrimage to the four sacred Himalayan shrines: Yamunotri, Gangotri, Kedarnath, and Badrinath. This journey through the majestic mountains is believed to cleanse one of all sins.",
+        "itinerary": ["Haridwar", "Yamunotri", "Gangotri", "Kedarnath", "Badrinath"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/The_Himalayas_at_sunrise_from_the_International_Space_Station.jpg/1280px-The_Himalayas_at_sunrise_from_the_International_Space_Station.jpg",
+        "tiers": [
+            { "name": "Standard", "cost": 28000, "description": "Comfortable group travel with standard hotel stays and meals." },
+            { "name": "Comfort", "cost": 65000, "description": "Upgraded hotels, smaller vehicle, and priority darshan arrangements." },
+            { "name": "Luxury", "cost": 120000, "description": "Premium accommodation, private vehicle, and personalized assistance." }
+        ],
+        "durationDays": 12,
+        "groupSize": 20
+    },
+    {
+        "id": 2,
+        "name": "Jyotirlinga Darshan Tour",
+        "description": "Visit the twelve self-manifested Jyotirlingas of Lord Shiva spread across India. This comprehensive tour is a journey of deep devotion, connecting you with the powerful cosmic energy of Shiva.",
+        "itinerary": ["Somnath", "Mallikarjuna", "Mahakaleshwar", "Omkareshwar", "Vaidyanath", "Bhimashankar", "Rameswaram", "Nageshwar", "Vishwanath", "Trimbakeshwar", "Kedarnath", "Grishneshwar"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Narmada_River_at_Omkareshwar_temple.jpg/1024px-Narmada_River_at_Omkareshwar_temple.jpg",
+        "tiers": [
+            { "name": "Standard", "cost": 68000, "description": "Cover all 12 Jyotirlingas with standard accommodation and group travel by train/bus." },
+            { "name": "Comfort", "cost": 150000, "description": "Upgraded hotels and travel by AC vehicles for a more comfortable journey." },
+            { "name": "Premium", "cost": 250000, "description": "Luxury stays, flights between major cities, and special pooja arrangements." }
+        ],
+        "durationDays": 21,
+        "groupSize": 15
+    },
+    {
+        "id": 3,
+        "name": "Vaishno Devi Yatra",
+        "description": "A holy pilgrimage to the sacred cave shrine of Vaishno Devi in the Trikuta Mountains of Jammu and Kashmir. Trek to the divine sanctum to seek the blessings of the Mother Goddess for strength and prosperity.",
+        "itinerary": ["Jammu", "Katra", "Vaishno Devi Bhawan"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vaishno_Devi_Temple_from_Katra.jpg/1280px-Vaishno_Devi_Temple_from_Katra.jpg",
+        "tiers": [
+            { "name": "Standard", "cost": 6500, "description": "Includes travel from Jammu, standard stay in Katra, and yatra registration." },
+            { "name": "Comfort", "cost": 12500, "description": "Upgraded hotel in Katra and battery car service for a portion of the trek." },
+            { "name": "VIP", "cost": 25000, "description": "Includes helicopter service from Katra to Sanjichhat and priority darshan." }
+        ],
+        "durationDays": 4,
+        "groupSize": 30
+    },
+    {
+        "id": 4,
+        "name": "South Indian Temple Tour",
+        "description": "Explore the architectural marvels and spiritual heart of South India. This tour covers the magnificent temples of Tamil Nadu and Kerala, showcasing the grandeur of Dravidian art and ancient traditions.",
+        "itinerary": ["Madurai", "Rameswaram", "Kanyakumari", "Thanjavur", "Trivandrum"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Facade_of_Thanjavur_Temple.jpg/1024px-Facade_of_Thanjavur_Temple.jpg",
+        "tiers": [
+            { "name": "Classic", "cost": 18500, "description": "A comprehensive tour with comfortable hotels and group bus travel." },
+            { "name": "Heritage", "cost": 40000, "description": "Stay in heritage properties, smaller group size, and included cultural performances." },
+            { "name": "Royal", "cost": 75000, "description": "Luxury accommodation, private car, and expert guide throughout the tour." }
+        ],
+        "durationDays": 8,
+        "groupSize": 25
+    },
+    {
+        "id": 5,
+        "name": "Sacred Shakti Peetha Yatra",
+        "description": "Journey to the powerful epicenters of divine feminine energy. This yatra covers some of the most revered Shakti Peethas, where the body parts of Goddess Sati are believed to have fallen, bestowing immense spiritual power upon the land.",
+        "itinerary": ["Kamakhya Temple, Guwahati", "Kalighat, Kolkata", "Vindhyachal, Mirzapur", "Jwala Ji, Himachal", "Harsiddhi, Ujjain"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/A_view_of_Kamakhya_Temple.jpg/1280px-A_view_of_Kamakhya_Temple.jpg",
+        "tiers": [
+            { "name": "Devotional", "cost": 38000, "description": "Group pilgrimage covering key Shakti Peethas with standard stays." },
+            { "name": "Comfort", "cost": 85000, "description": "Includes flights between major cities, better hotels, and guided tours." },
+            { "name": "Spiritual Seeker", "cost": 130000, "description": "Private customized tour with focus on deep spiritual experiences and rituals." }
+        ],
+        "durationDays": 14,
+        "groupSize": 18
+    },
+    {
+        "id": 6,
+        "name": "South India Divya Desam Tour",
+        "description": "A divine journey to the 108 sacred abodes of Lord Vishnu, known as Divya Desams, as glorified in the works of the Alvars. This tour covers the key temples in Tamil Nadu, the heartland of Vaishnavite tradition, offering a deep dive into devotion and architectural splendor.",
+        "itinerary": ["Srirangam Ranganathaswamy", "Kanchipuram Varadaraja Perumal", "Tirumala Venkateswara", "Thiruvallikeni Parthasarathy", "Alagar Kovil, Madurai"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Srirangam_temple_full_view.jpg/1280px-Srirangam_temple_full_view.jpg",
+        "tiers": [
+            { "name": "Standard", "cost": 26000, "description": "Covers major Divya Desams with comfortable accommodation." },
+            { "name": "Comfort", "cost": 52000, "description": "AC vehicle, upgraded hotels, and special darshan where available." },
+            { "name": "Vaishnava Scholar", "cost": 90000, "description": "Private tour accompanied by a scholar explaining the history and significance of each site." }
+        ],
+        "durationDays": 10,
+        "groupSize": 22
+    },
+    {
+        "id": 7,
+        "name": "Pancha Bhoota Sthalam Yatra",
+        "description": "Experience the five primordial elements through this pilgrimage to the Pancha Bhoota Sthalams, the five sacred Shiva temples embodying Earth, Water, Fire, Air, and Ether. A profound journey to understand the cosmic nature of Lord Shiva.",
+        "itinerary": ["Ekambareswarar (Earth)", "Jambukeshwarar (Water)", "Arunachaleswarar (Fire)", "Srikalahasti (Air)", "Chidambaram Nataraja (Ether)"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arunachalesvara_Temple_Tiruvannamalai_28.jpg/1280px-Arunachalesvara_Temple_Tiruvannamalai_28.jpg",
+        "tiers": [
+            { "name": "Standard", "cost": 22500, "description": "Group tour visiting all five temples with standard hotel stays." },
+            { "name": "Comfort", "cost": 48000, "description": "Private car travel, 3-star hotels, and flexible timings." },
+            { "name": "Meditative", "cost": 70000, "description": "Includes guided meditation sessions at each site to connect with the elemental energies." }
+        ],
+        "durationDays": 7,
+        "groupSize": 20
+    },
+    {
+        "id": 8,
+        "name": "Krishna Circuit Pilgrimage",
+        "description": "Follow the footsteps of Lord Krishna on this divine journey through his birthplace and playgrounds. Experience the vibrant culture and deep devotion of Mathura, Vrindavan, Gokul, and the majestic city of Dwarka.",
+        "itinerary": ["Mathura (Birthplace)", "Vrindavan (Rasa Lila)", "Gokul", "Barsana & Nandgaon", "Dwarka (Kingdom)"],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Radha_Krishna_and_Gopis_in_a_forest_clearing.jpg/1280px-Radha_Krishna_and_Gopis_in_a_forest_clearing.jpg",
+        "tiers": [
+            { "name": "Standard", "cost": 22000, "description": "Group travel by AC coach with standard hotel stays." },
+            { "name": "Comfort", "cost": 45000, "description": "Private vehicle, upgraded hotels, and guided tours." }
+        ],
+        "durationDays": 7,
+        "groupSize": 25
+    }
+]

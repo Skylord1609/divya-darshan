@@ -1,0 +1,25 @@
+
+@keyframes pano-pan {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-15%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.vr-pano-container {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.vr-pano-image {
+  width: 150%; /* Image is wider than container to allow panning */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: pano-pan 30s ease-in-out infinite;
+}

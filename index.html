@@ -1,0 +1,397 @@
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "dompurify": "https://aistudiocdn.com/dompurify@^3.2.6",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^0.14.0"
+  }
+}
+</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divya Darshan - A Spiritual Journey</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <style>
+      :root {
+        --font-sans: 'Hind', sans-serif;
+        --font-serif: 'Noto Serif', serif;
+        --font-heading: 'Hind', sans-serif;
+        --font-kid-friendly: 'Baloo 2', cursive;
+
+        /* Default Theme: Sahasrara */
+        --color-primary-val: 147 51 234; /* purple-600 */
+        --color-secondary-val: 234 179 8; /* yellow-500 */
+        --color-text-base-val: 31 41 55; /* gray-800 */
+        --color-text-muted-val: 75 85 99; /* gray-500 */
+        --color-main-bg-val: 249 250 251; /* gray-50 */
+        --background-image: url('https://www.transparenttextures.com/patterns/asanoha.png');
+        --background-opacity: 0.1;
+
+        --bg-start-val: var(--color-main-bg-val);
+
+        /* Sidebar colors */
+        --color-sidebar-val: 23 23 23; /* neutral-900 */
+        --color-sidebar-text-val: 229 231 235; /* gray-200 */
+        --color-sidebar-text-hover-val: 255 255 255;
+        --color-sidebar-active-val: 0 0 0;
+        --color-sidebar-active-text-val: var(--color-primary-val);
+      }
+
+      .theme-sahasrara {
+        --color-primary-val: 147 51 234;
+        --color-secondary-val: 234 179 8;
+        --color-text-base-val: 31 41 55;
+        --color-text-muted-val: 75 85 99;
+        --color-main-bg-val: 248 245 252;
+        --background-image: url('https://www.transparenttextures.com/patterns/asanoha.png');
+        --background-opacity: 0.1;
+      }
+
+      .theme-ajna {
+        --color-primary-val: 79 70 229;
+        --color-secondary-val: 34 211 238;
+        --color-text-base-val: 30 41 59;
+        --color-text-muted-val: 71 85 105;
+        --color-main-bg-val: 245 247 254;
+        --background-image: url('https://www.transparenttextures.com/patterns/subtle-prism.png');
+        --background-opacity: 0.15;
+      }
+
+      .theme-vishuddha {
+        --color-primary-val: 37 99 235;
+        --color-secondary-val: 132 204 22;
+        --color-text-base-val: 28 36 51;
+        --color-text-muted-val: 63 76 95;
+        --color-main-bg-val: 240 249 255;
+        --background-image: url('https://www.transparenttextures.com/patterns/wavecut.png');
+        --background-opacity: 0.1;
+      }
+
+      .theme-anahata {
+        --color-primary-val: 34 197 94;
+        --color-secondary-val: 244 114 182;
+        --color-text-base-val: 27 41 33;
+        --color-text-muted-val: 64 81 70;
+        --color-main-bg-val: 240 253 244;
+        --background-image: url('https://www.transparenttextures.com/patterns/leaves.png');
+        --background-opacity: 0.08;
+      }
+
+      .theme-manipura {
+        --color-primary-val: 234 179 8;
+        --color-secondary-val: 239 68 68;
+        --color-text-base-val: 51 44 28;
+        --color-text-muted-val: 87 79 63;
+        --color-main-bg-val: 255 251 235;
+        --background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+        --background-opacity: 0.1;
+      }
+
+      .theme-swadhisthana {
+        --color-primary-val: 249 115 22;
+        --color-secondary-val: 59 130 246;
+        --color-text-base-val: 51 38 28;
+        --color-text-muted-val: 87 72 63;
+        --color-main-bg-val: 255 247 237;
+        --background-image: url('https://www.transparenttextures.com/patterns/otis-redding.png');
+        --background-opacity: 0.2;
+      }
+
+      .theme-muladhara {
+        --color-primary-val: 220 38 38;
+        --color-secondary-val: 245 158 11;
+        --color-text-base-val: 51 28 28;
+        --color-text-muted-val: 87 63 63;
+        --color-main-bg-val: 254 242 242;
+        --background-image: url('https://www.transparenttextures.com/patterns/rocky-wall.png');
+        --background-opacity: 0.08;
+      }
+
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        color: rgb(var(--color-text-base-val));
+        background-color: rgb(var(--color-main-bg-val));
+      }
+
+      .font-heading { font-family: var(--font-heading); }
+      .font-serif { font-family: var(--font-serif); }
+      .font-noto-serif { font-family: 'Noto Serif', serif; }
+      .font-kid-friendly { font-family: var(--font-kid-friendly); }
+      
+      .bg-main { background-color: rgb(var(--color-main-bg-val)); }
+      .bg-primary { background-color: rgb(var(--color-primary-val)); }
+      .bg-secondary { background-color: rgb(var(--color-secondary-val)); }
+      .text-primary { color: rgb(var(--color-primary-val)); }
+      .text-secondary { color: rgb(var(--color-secondary-val)); }
+      .text-text-base { color: rgb(var(--color-text-base-val)); }
+      .text-text-muted { color: rgb(var(--color-text-muted-val)); }
+      .border-primary { border-color: rgb(var(--color-primary-val)); }
+      .ring-primary { ring-color: rgb(var(--color-primary-val)); }
+
+      .bg-sidebar { background-color: rgb(var(--color-sidebar-val)); }
+      .text-sidebar { color: rgb(var(--color-sidebar-text-val)); }
+      .text-sidebar-hover:hover { color: rgb(var(--color-sidebar-text-hover-val)); }
+      .bg-sidebar-active { background-color: rgb(var(--color-sidebar-active-val)); }
+      .text-sidebar-active { color: rgb(var(--color-primary-val)); }
+
+      .leaflet-container {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      }
+      .hero-bg-image {
+        background-image: url('https://images.unsplash.com/photo-1617665101932-373e32b38a7c?q=80&w=1920&auto=format&fit=crop');
+      }
+
+      /* Animations */
+      @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .animate-fade-in { animation: fade-in 0.5s ease-out forwards; }
+      
+      @keyframes fade-out {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+      .animate-fade-out { animation: fade-out 0.7s ease-in forwards; }
+
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
+
+      @keyframes fade-in-right {
+        from { opacity: 0; transform: translateX(20px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      .animate-fade-in-right { animation: fade-in-right 0.5s ease-out forwards; }
+      
+      @keyframes glow-border {
+        0%, 100% { border-color: rgba(var(--color-primary-val), 0.4); box-shadow: 0 0 5px rgba(var(--color-primary-val), 0.2); }
+        50% { border-color: rgba(var(--color-primary-val), 1); box-shadow: 0 0 15px rgba(var(--color-primary-val), 0.6); }
+      }
+      .animate-glow-border { animation: glow-border 4s infinite ease-in-out; }
+
+      @keyframes kenburns {
+        0% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+      }
+      .animate-kenburns { animation: kenburns 40s ease-in-out infinite alternate; }
+
+      @keyframes bell-shake {
+        0%, 100% { transform: rotate(0); }
+        10%, 30%, 50%, 70%, 90% { transform: rotate(10deg); }
+        20%, 40%, 60%, 80% { transform: rotate(-10deg); }
+      }
+      .animate-bell-shake { animation: bell-shake 0.8s ease-in-out; }
+
+      @keyframes glow-amber {
+        0%, 100% { filter: drop-shadow(0 0 5px #f59e0b); }
+        50% { filter: drop-shadow(0 0 20px #f59e0b); }
+      }
+      .animate-drop-shadow-glow-amber { animation: glow-amber 4s infinite ease-in-out; }
+
+      @keyframes glow-white {
+        0%, 100% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fefce8; }
+        50% { text-shadow: 0 0 10px #fff, 0 0 20px #fefce8, 0 0 30px #fefce8; }
+      }
+      .animate-glow-white-text { animation: glow-white 4s infinite ease-in-out; }
+      
+      /* Splash Screen Animations */
+      @keyframes starfield-scroll { from { background-position: 0 0; } to { background-position: -10000px 5000px; } }
+      @keyframes om-pulse { 0%, 100% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(1.1); opacity: 1; } }
+      .animate-om-pulse { animation: om-pulse 6s infinite ease-in-out; }
+      @keyframes ripple-effect {
+        0% { transform: scale(0); opacity: 1; }
+        100% { transform: scale(30); opacity: 0; }
+      }
+      .ripple { position: absolute; border: 2px solid #fcd34d; border-radius: 50%; animation: ripple-effect 1.2s linear; }
+
+      @keyframes cosmic-outer-cw { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes cosmic-outer-ccw { 0% { transform: rotate(0deg); } 100% { transform: rotate(-360deg); } }
+      @keyframes cosmic-inner-cw { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes cosmic-inner-ccw { 0% { transform: rotate(0deg); } 100% { transform: rotate(-360deg); } }
+
+      .animate-cosmic-outer-cw { animation: cosmic-outer-cw 10s linear infinite; }
+      .animate-cosmic-outer-ccw { animation: cosmic-outer-ccw 12s linear infinite; }
+      .animate-cosmic-inner-cw { animation: cosmic-inner-cw 8s linear infinite reverse; }
+      .animate-cosmic-inner-ccw { animation: cosmic-inner-ccw 9s linear infinite reverse; }
+
+      /* AI Guru Chat Bubbles */
+      .ai-guru-chat-bubble-user { background-color: rgb(var(--color-primary-val)); color: white; }
+      .ai-guru-chat-bubble-guru { background-color: #e5e7eb; color: rgb(var(--color-text-base-val)); }
+      .ai-guru-input { border-color: rgb(var(--color-secondary-val)); }
+      .ai-guru-input:focus { ring-color: rgb(var(--color-primary-val)); border-color: rgb(var(--color-primary-val)); }
+      .ai-guru-submit-button { background-color: rgb(var(--color-primary-val)); }
+      .ai-guru-submit-button:hover { background-color: rgb(var(--color-secondary-val)); }
+      .ai-guru-submit-button:disabled { background-color: #9ca3af; }
+      .ai-guru-fab {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 20;
+        background-color: rgb(var(--color-primary-val));
+        color: white;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        transition: transform 0.2s ease-out;
+      }
+      .ai-guru-fab:hover { transform: scale(1.1); }
+      .blinking-cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      
+      /* Card Interactivity */
+      .card-interactive { transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; }
+      .card-interactive:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+
+      /* Section Title Animation */
+      .section-title-animation {
+          opacity: 0;
+          transform: translateX(-20px);
+          transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .section-title-animation.is-visible {
+          opacity: 1;
+          transform: translateX(0);
+      }
+      
+      /* Chanting Zone */
+      @keyframes deity-breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
+      .animate-deity-breathe { animation: deity-breathe 6s infinite ease-in-out; }
+      
+      /* Skeleton Loader */
+      .skeleton-bg { background-color: #e5e7eb; }
+      .skeleton-bg-darker { background-color: #d1d5db; }
+      
+      /* Chakra Sanctuary */
+      @keyframes chakra-glow {
+        0%, 100% { transform: scale(1); opacity: 0.7; }
+        50% { transform: scale(1.2); opacity: 1; }
+      }
+      .chakra-point { position: relative; }
+      .chakra-point-unlocked::before {
+        content: '';
+        position: absolute;
+        inset: -4px;
+        border-radius: 50%;
+        border: 2px solid currentColor;
+        animation: chakra-glow 3s infinite ease-in-out;
+      }
+      .energy-visual {
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        border-radius: 50%;
+        opacity: 0;
+        transform: scale(0.5);
+        transition: transform 0.5s ease, opacity 0.5s ease;
+      }
+      .animate-chakra-sahasrara .energy-visual { transform: scale(1.2); opacity: 0.3; }
+      .animate-chakra-ajna .energy-visual { transform: scale(1.1); opacity: 0.3; }
+      .animate-chakra-vishuddha .energy-visual { transform: scale(1); opacity: 0.3; }
+      .animate-chakra-anahata .energy-visual { transform: scale(0.9); opacity: 0.3; }
+      .animate-chakra-manipura .energy-visual { transform: scale(0.8); opacity: 0.3; }
+      .animate-chakra-swadhisthana .energy-visual { transform: scale(0.7); opacity: 0.3; }
+      .animate-chakra-muladhara .energy-visual { transform: scale(0.6); opacity: 0.3; }
+      @keyframes sushumna-flow-anim { 
+        0% { background-position: 0% 100%; } 
+        100% { background-position: 0% -100%; }
+      }
+      .animate-sushumna-flow { animation: sushumna-flow-anim 4s linear infinite; }
+      
+      @keyframes active-chakra-glow {
+        0%, 100% { box-shadow: 0 0 8px 3px rgba(var(--active-chakra-color-val), 0.5); }
+        50% { box-shadow: 0 0 20px 8px rgba(var(--active-chakra-color-val), 0.8); }
+      }
+      .animate-active-chakra-glow {
+          animation: active-chakra-glow 2.5s infinite ease-in-out;
+      }
+
+      /* Vedas & Knowledge View */
+      .vedas-view-container, .knowledge-hub-container {
+        background: radial-gradient(circle, #fffbeb, #fef3c7);
+        color: #78350f;
+      }
+      .vedas-main-title, .knowledge-hub-title {
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+      }
+      .veda-card {
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(120, 53, 15, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(120, 53, 15, 0.1);
+      }
+      .veda-card-icon { box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+      .veda-card-button { background-color: #fff; border: 1px solid #d4af37; color: #78350f; }
+      .veda-card-button:hover { background-color: #d4af37; color: #fff; }
+      .toggle-switch-vedas {
+          position: relative; display: inline-block; width: 50px; height: 28px;
+      }
+      .toggle-switch-vedas input { opacity: 0; width: 0; height: 0; }
+      .slider-vedas { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 28px; }
+      .slider-vedas:before { position: absolute; content: ""; height: 20px; width: 20px; left: 4px; bottom: 4px; background-color: white; transition: .4s; border-radius: 50%; }
+      input:checked + .slider-vedas { background-color: #2196F3; }
+      input:checked + .slider-vedas:before { transform: translateX(22px); }
+
+      .accordion-item { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(5px); transition: all 0.3s ease-in-out; }
+      .accordion-item.open { background: rgba(255, 255, 255, 1); }
+      .accordion-header { cursor: pointer; }
+      .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out, padding 0.5s ease; padding: 0 1.5rem; }
+      .accordion-item.open .accordion-content { max-height: 1000px; padding: 0.5rem 1.5rem 1.5rem; }
+      .accordion-item .chevron-icon { transition: transform 0.3s ease-in-out; }
+      .accordion-item.open .chevron-icon { transform: rotate(90deg); }
+      .daily-wisdom-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+      .book-entry-card { background-color: #fefcf5; }
+      .mandala-icon { background: linear-gradient(135deg, rgb(var(--color-primary-val)), rgb(var(--color-secondary-val))); }
+
+
+      /* Animated Background Particles */
+      .particle {
+        position: absolute;
+        bottom: -20px; /* Start below the screen */
+        background-color: rgba(var(--color-primary-val), 0.3);
+        border-radius: 50%;
+        animation-name: rise;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        opacity: 0;
+      }
+      @keyframes rise {
+        0% { transform: translateY(0); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateY(-110vh); opacity: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

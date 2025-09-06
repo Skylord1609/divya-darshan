@@ -1,0 +1,7 @@
+
+[
+  { "roomId": 1, "userIds": [1, 2] },
+  { "roomId": 2, "userIds": [1] },
+  { "roomId": 3, "userIds": [2] },
+  { "roomId": 4, "userIds": [] }
+]

@@ -1,0 +1,17 @@
+
+{
+  "title": "Rāma Gītā",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "The Song of Rama",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "Placeholder Sanskrit text for Rāma Gītā.",
+          "translation": "Placeholder English translation for Rāma Gītā."
+        }
+      ]
+    }
+  ]
+}

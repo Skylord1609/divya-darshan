@@ -1,0 +1,118 @@
+
+{
+  "title": "Rigveda",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Mandala 1, Hymn 1 - To Agni",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् । होतारं रत्नधातमम् ॥",
+          "translation": "I praise Agni, the chosen Priest, God, minister of sacrifice, the hotar, lavishest of wealth."
+        },
+        {
+          "verse": 2,
+          "sanskrit": "अग्निः पूर्वेभिर्ऋषिभिरीड्यो नूतनैरुत । स देवाँ एह वक्षति ॥",
+          "translation": "Worthy is Agni to be praised by living as by ancient seers. He shall bring hitherward the Gods."
+        },
+        {
+          "verse": 3,
+          "sanskrit": "अग्निना रयिमश्नवत्पोषमेव दिवेदिवे । यशसं वीरवत्तमम् ॥",
+          "translation": "Through Agni man obtaineth wealth, yea, plenty waxing day by day, Most rich in heroes, glorious."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Mandala 3, Hymn 62 - Gāyatrī Mantra",
+      "verses": [
+        {
+          "verse": 10,
+          "sanskrit": "ॐ भूर्भुवः स्वः । तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
+          "translation": "Om, Earth, Atmosphere, Heaven. We meditate on the adorable glory of the radiant Savitr (Sun God). May he inspire our intelligence."
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "title": "Mandala 10, Hymn 90 - Purusha Sukta (Hymn of the Cosmic Being)",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥",
+          "translation": "The Purusha (Cosmic Being) has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and extends beyond it by ten fingers' breadth."
+        },
+        {
+          "verse": 2,
+          "sanskrit": "पुरुष एवेदं सर्वं यद्भूतं यच्च भव्यम् । उतामृतत्वस्येशानो यदन्नेनातिरोहति ॥",
+          "translation": "This Purusha is all that yet hath been and all that is to be, the Lord of Immortality which waxes greater still by food."
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "title": "Mandala 10, Hymn 129 - Nasadiya Sukta (Hymn of Creation)",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "नासदासीन्नो सदासीत्तदानीं नासीद्रजो नो व्योमा परो यत् । किमावरीवः कुह कस्य शर्मन्नम्भः किमासीद्गहनं गभीरम् ॥",
+          "translation": "Then was not non-existent nor existent: there was no realm of air, no sky beyond it. What covered in, and where? and what gave shelter? Was water there, unfathomed depth of water?"
+        },
+        {
+          "verse": 2,
+          "sanskrit": "न मृत्युरासीदमृतं न तर्हि न रात्र्या अह्न आसीत्प्रकेतः । आनीदवातं स्वधया तदेकं तस्माद्धान्यन्न परः किञ्चनास ॥",
+          "translation": "Death was not then, nor was there aught immortal: no sign was there, the day's and night's divider. That One Thing, breathless, breathed by its own nature: apart from it was nothing whatsoever."
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Mandala 1, Hymn 22 - To Vishnu",
+      "verses": [
+        {
+          "verse": 16,
+          "sanskrit": "अतो देवा अवन्तु नो यतो विष्णुर्विचक्रमे । पृथिव्याः सप्त धामभिः ॥",
+          "translation": "May the Gods be gracious to us, even from the place whence Vishnu strode through the seven regions of the earth."
+        },
+        {
+          "verse": 17,
+          "sanskrit": "इदं विष्णुर्विचक्रमे त्रेधा नि दधे पदम् । समूळ्हमस्य पांसुरे ॥",
+          "translation": "Through all this world strode Vishnu; thrice his foot he planted, and the whole was gathered in his footstep's dust."
+        },
+        {
+          "verse": 20,
+          "sanskrit": "तद्विष्णोः परमं पदं सदा पश्यन्ति सूरयः । दिवीव चक्षुराततम् ॥",
+          "translation": "The wise ever behold that supreme abode of Vishnu, like an eye fixed in heaven."
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "Mandala 1, Hymn 32 - To Indra",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "इन्द्रस्य नु वीर्याणि प्र वोचं यानि चकार प्रथमानि वज्री । अहन्नहिमन्वपस्ततर्द प्र वक्षणा अभिनत्पर्वतानाम् ॥",
+          "translation": "I will declare the mighty deeds of Indra, the first that he achieved, the Thunder-wielder. He slew the Dragon, then disclosed the waters, and cleft the channels of the mountain torrents."
+        },
+        {
+          "verse": 2,
+          "sanskrit": "अहन्नहिं पर्वते शिश्रियाणं त्वष्टास्मै वज्रं स्वर्यं ततक्ष । वाश्रा इव धेनवः स्यन्दमाना अञ्जः समुद्रमव जग्मुरापः ॥",
+          "translation": "He slew the Dragon lying on the mountain: for him Tvashtar fashioned the roaring thunderbolt. Like lowing kine in rapid flow descending, the waters glided downward to the ocean."
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Mandala 9, Hymn 1 - To Soma Pavamana",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "स्वादीयसी पवमानस्य ते रसो मदिरतमो अङ्गिरस्वत् । जीरदानो अभि शस्तिपावाञ्छ्रेयो जिगाति महिषो नृषाह्ये ॥",
+          "translation": "In sweetest and most gladdening stream, flow pure, O Soma, on thy way, pressed out for Indra to drink."
+        }
+      ]
+    }
+  ]
+}

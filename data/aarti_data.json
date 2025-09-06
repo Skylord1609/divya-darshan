@@ -1,0 +1,38 @@
+
+[
+    {
+        "id": 1,
+        "name": "Om Jai Jagdish Hare",
+        "songUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Om_Jai_Jagdish_Hare_Aarti_with_Lyrics.ogg",
+        "lyrics": [
+            { "time": 20.5, "text": "Om Jai Jagdish Hare" },
+            { "time": 24.0, "text": "Swami Jai Jagdish Hare" },
+            { "time": 27.8, "text": "Bhakt Jano Ke Sankat" },
+            { "time": 31.5, "text": "Daas Jano Ke Sankat" },
+            { "time": 34.8, "text": "Kshan Mein Door Kare" },
+            { "time": 38.5, "text": "Om Jai Jagdish Hare" },
+            { "time": 45.8, "text": "Jo Dhyave Phal Pave" },
+            { "time": 49.5, "text": "Dukh Binse Man Ka" },
+            { "time": 53.0, "text": "Swami Dukh Binse Man Ka" },
+            { "time": 57.0, "text": "Sukh Sampati Ghar Aave" },
+            { "time": 60.5, "text": "Sukh Sampati Ghar Aave" },
+            { "time": 64.0, "text": "Kasht Mite Tan Ka" },
+            { "time": 67.8, "text": "Om Jai Jagdish Hare" }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Ganesh Aarti",
+        "songUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ganesha_Sthuthi-Audio.ogg",
+        "lyrics": [
+            { "time": 5, "text": "Jai Ganesh, Jai Ganesh" },
+            { "time": 8, "text": "Jai Ganesh Deva" },
+            { "time": 12, "text": "Mata Jaki Parvati" },
+            { "time": 15, "text": "Pita Mahadeva" },
+            { "time": 19, "text": "Ek Dant Dayavant" },
+            { "time": 22, "text": "Char Bhuja Dhari" },
+            { "time": 26, "text": "Mathe Pe Sindhoor Sohe" },
+            { "time": 29, "text": "Muse Ki Savari" }
+        ]
+    }
+]

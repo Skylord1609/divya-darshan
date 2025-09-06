@@ -1,0 +1,1259 @@
+
+[
+  {
+    "id": 1,
+    "name": "Rigveda",
+    "description": "The oldest of the Vedas, a collection of 1,028 hymns (sūktas) dedicated to various deities. It is a foundational text of Hinduism, containing prayers, mythology, and philosophical insights into the nature of the cosmos.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/A_page_from_the_Rigveda_in_Devanagari_%28Bombay_recension%2C_19th_century%29.jpg/800px-A_page_from_the_Rigveda_in_Devanagari_%28Bombay_recension%2C_19th_century%29.jpg",
+    "contentKey": "rigveda",
+    "tags": ["veda", "hymns", "knowledge"]
+  },
+  {
+    "id": 28,
+    "name": "Yajurveda",
+    "description": "The Veda of prose mantras. It serves as a practical guidebook for priests conducting sacrificial fires (yajnas), detailing the procedures and invocations required for rituals.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Homa_Havan_Fire.jpg/1024px-Homa_Havan_Fire.jpg",
+    "contentKey": "yajurveda",
+    "tags": ["veda", "ritual", "yajna"]
+  },
+  {
+    "id": 27,
+    "name": "Samaveda",
+    "description": "The Veda of melodies and chants. Its verses are primarily drawn from the Rigveda and are set to music for liturgical purposes, forming the basis of classical Indian music and dance.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Indian-classical-music-concert.jpg/1024px-Indian-classical-music-concert.jpg",
+    "contentKey": "samaveda",
+    "tags": ["veda", "music", "chant"]
+  },
+  {
+    "id": 29,
+    "name": "Atharvaveda",
+    "description": "A collection of spells, prayers, and charms. It covers a wide range of topics including healing, longevity, and everyday life rituals, offering a glimpse into popular Vedic beliefs and practices.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ayurveda_medicine_-_Holy_Basil.jpg/1024px-Ayurveda_medicine_-_Holy_Basil.jpg",
+    "contentKey": "atharvaveda",
+    "tags": ["veda", "spells", "healing"]
+  },
+  {
+    "id": 4,
+    "name": "The Ramayana",
+    "description": "An ancient Indian epic which narrates the life and journey of Rama, the seventh avatar of Vishnu. It explores themes of dharma, loyalty, and devotion. The original version by Valmiki is revered, with popular retellings like Tulsidas's Ramcharitmanas widely published by Gita Press, Gorakhpur.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rama_and_Sita_in_Valmiki%27s_Hermitage.jpg/800px-Rama_and_Sita_in_Valmiki%27s_Hermitage.jpg",
+    "tags": ["itihasa", "rama", "vishnu", "epic", "dharma"],
+    "contentKey": "ramayana"
+  },
+  {
+    "id": 5,
+    "name": "The Mahabharata",
+    "description": "One of the two major Sanskrit epics of ancient India, it is a narrative of the Kurukshetra War and the fates of the Kaurava and the Pandava princes. It contains philosophical and devotional material, including the Bhagavad Gita.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Arjuna_and_Krishna_on_the_chariot%2C_Kurukshetra_War.jpg/1024px-Arjuna_and_Krishna_on_the_chariot%2C_Kurukshetra_War.jpg",
+    "tags": ["itihasa", "krishna", "epic", "dharma", "pandavas"],
+    "contentKey": "mahabharata"
+  },
+  {
+    "id": 2,
+    "name": "Bhagavad-gītā",
+    "description": "A dialogue between Śrī Kṛṣṇa and Arjuna at Kurukṣetra, summarizing the essence of Vedic wisdom in 700 verses. It offers timeless teachings on dharma, devotion, and self-realization. Authentic translations and commentaries are widely available, notably from publishers like Gita Press, Gorakhpur.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Krishna_and_Arjuna_on_the_chariot.jpg/1024px-Krishna_and_Arjuna_on_the_chariot.jpg",
+    "contentKey": "bhagavad_gita",
+    "tags": ["gita", "krishna", "vedanta", "mahabharata", "philosophy"]
+  },
+  {
+    "id": 6,
+    "name": "Aṣṭāvakra Gītā",
+    "description": "A dialogue between Sage Aṣṭāvakra and King Janaka, presenting the essence of Advaita Vedānta. It emphasizes self-realization through detachment, wisdom, and the recognition of the ātman.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sage_Ashtavakra.jpg/800px-Sage_Ashtavakra.jpg",
+    "tags": ["gita", "advaita", "vedanta", "philosophy"],
+    "contentKey": "astavakra_gita"
+  },
+  {
+    "id": 7,
+    "name": "Īśvara Gītā",
+    "description": "A discourse by Lord Śiva to sages, found in the Kurma Purāṇa. It elucidates the nature of Īśvara, devotion, meditation, and liberation, emphasizing Śiva as the supreme reality.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shiva_as_the_Supreme_Teacher_%28Dakshinamurti%29.jpg/800px-Shiva_as_the_Supreme_Teacher_%28Dakshinamurti%29.jpg",
+    "tags": ["gita", "shiva", "purana", "philosophy"],
+    "contentKey": "isvara_gita"
+  },
+  {
+    "id": 8,
+    "name": "Ājagara Gītā",
+    "description": "A description of instructions given by a renounced ascetic to Śrī Prahlāda Mahārāja, teaching wisdom through the metaphor of a python's life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/A_Vaishnava_sadhu_in_Jaipur.jpg",
+    "tags": ["gita", "wisdom", "prahlad"],
+    "contentKey": "ajagara_gita"
+  },
+  {
+    "id": 9,
+    "name": "Avadhūta Gītā",
+    "description": "A scripture found in the Dattatreya Upanishad, it expounds on the nature of reality, the self, and the path to liberation through the words of an Avadhūta (a liberated soul).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Dattatreya_-_sanesvara.jpg/800px-Dattatreya_-_sanesvara.jpg",
+    "tags": ["gita", "advaita", "dattatreya", "philosophy"],
+    "contentKey": "avadhuta_gita"
+  },
+  {
+    "id": 10,
+    "name": "Bhikṣu Gītā",
+    "description": "Contained in the Seventh Canto of Śrīmad-bhāgavatam, it tells the story of a mendicant (bhikṣu) and teaches profound lessons on tolerance and forgiveness.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sadhu_Varanasi_2012.jpg/800px-Sadhu_Varanasi_2012.jpg",
+    "tags": ["gita", "bhagavatam", "wisdom"],
+    "contentKey": "bhiksu_gita"
+  },
+  {
+    "id": 11,
+    "name": "Brāhmaṇa Gītā",
+    "description": "A discourse from Brahma to Narad Muni and other Rishis. It is sometimes known as the second Gita of Krishna, delving into deep philosophical truths.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Brahma_Hindu_God.jpg",
+    "tags": ["gita", "brahma", "philosophy"],
+    "contentKey": "brahmana_gita"
+  },
+  {
+    "id": 12,
+    "name": "Gaṇeśa Gītā",
+    "description": "A dialogue between Sut Goswami and Maharshi Vedavyas where they discuss and glorify Sri Ganesha, presenting spiritual truths through the lens of Ganesha worship.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ganesha_gita_manuscript.jpg/800px-Ganesha_gita_manuscript.jpg",
+    "tags": ["gita", "ganesha", "philosophy"],
+    "contentKey": "ganesha_gita"
+  },
+  {
+    "id": 13,
+    "name": "Gīta Govinda",
+    "description": "A poetic work by the 12th-century poet Jayadeva. It describes the divine relationship between Krishna, Radha, and the gopis of Vrindavan, celebrating ecstatic love and devotion.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Radha_Krishna_v%26a.jpg/800px-Radha_Krishna_v%26a.jpg",
+    "tags": ["krishna", "radha", "bhakti", "poetry"],
+    "contentKey": "gita_govinda"
+  },
+  {
+    "id": 14,
+    "name": "Gopī Gīta",
+    "description": "One of Śrīmad-bhāgavatam's five most important chapters, it is the song of the gopis expressing their deep love and longing for Lord Krishna during the Rāsa-līlā.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Krishna_and_the_Gopis_take_refuge_from_the_rain.jpg/1024px-Krishna_and_the_Gopis_take_refuge_from_the_rain.jpg",
+    "tags": ["gita", "krishna", "bhagavatam", "bhakti"],
+    "contentKey": "gopi_gita"
+  },
+  {
+    "id": 15,
+    "name": "Guru Gītā",
+    "description": "A sacred text where Lord Shiva teaches Goddess Parvati the supreme importance of the spiritual teacher (Guru) and the path to liberation through the Guru's grace.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/A_Sadhu_in_Meditation_beneath_a_Tree_by_a_River.jpg/800px-A_Sadhu_in_Meditation_beneath_a_Tree_by_a_River.jpg",
+    "tags": ["gita", "shiva", "guru", "wisdom"],
+    "contentKey": "guru_gita"
+  },
+  {
+    "id": 16,
+    "name": "Haṁsa Gītā",
+    "description": "Contained in the sixth canto of Śrīmad-bhāgavatam, it contains Lord Krishna's teachings in the form of a swan (Haṁsa) to the sons of Brahma.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hamsa_vahana.jpg/800px-Hamsa_vahana.jpg",
+    "tags": ["gita", "krishna", "bhagavatam"],
+    "contentKey": "hamsa_gita"
+  },
+  {
+    "id": 17,
+    "name": "Jīvana-mukta-gītā",
+    "description": "A text attributed to the sage Dattatreya, it teaches the art and state of being liberated while still living (Jivanmukti), emphasizing pure awareness.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Meditation_at_Arunachala.jpg/1024px-Meditation_at_Arunachala.jpg",
+    "tags": ["gita", "dattatreya", "liberation"],
+    "contentKey": "jivanmukta_gita"
+  },
+  {
+    "id": 18,
+    "name": "Kāma Gītā",
+    "description": "A discussion between Sri Krishna and Yudhishthira from the Ashvamedha Parva of Mahabharata, focusing on the nature of desire (Kama) and the importance of controlled senses.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Krishna_and_Yudhishthira.jpg/800px-Krishna_and_Yudhishthira.jpg",
+    "tags": ["gita", "krishna", "mahabharata"],
+    "contentKey": "kama_gita"
+  },
+  {
+    "id": 19,
+    "name": "Kapila Gītā",
+    "description": "The profound instructions and teachings on Sankhya philosophy given by the sage Kapila Muni to his mother, Devahuti, as narrated in the Śrīmad-bhāgavatam.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kapila_Muni.jpg/800px-Kapila_Muni.jpg",
+    "tags": ["gita", "bhagavatam", "philosophy", "sankhya"],
+    "contentKey": "kapila_gita"
+  },
+  {
+    "id": 20,
+    "name": "Uddhava Gītā",
+    "description": "Lord Krishna's final discourse to his devoted friend Uddhava before his departure from the world. Found in the Bhagavata Purana, it imparts profound teachings on devotion, knowledge, and detachment.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Krishna_and_Uddhava.jpg/800px-Krishna_and_Uddhava.jpg",
+    "tags": ["gita", "krishna", "bhagavatam", "philosophy"],
+    "contentKey": "uddhava_gita"
+  },
+  {
+    "id": 21,
+    "name": "Rāma Gītā",
+    "description": "A part of the Adhyatma Ramayana, where Lord Rama instructs his brother Lakshmana on the path of knowledge and liberation, focusing on morality, devotion, and dignity.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rama_and_Lakshmana_in_a_pavilion_and_Hanuman_paying_homage_to_them.jpg/800px-Rama_and_Lakshmana_in_a_pavilion_and_Hanuman_paying_homage_to_them.jpg",
+    "tags": ["gita", "rama", "ramayana", "advaita"],
+    "contentKey": "rama_gita"
+  },
+  {
+    "id": 22,
+    "name": "Sūrya Gītā",
+    "description": "A discourse by the Sun God, Surya, to a Sage, as found in the Srimad Bhagavatam. It imparts spiritual wisdom, emphasizing devotion, knowledge, and the path to self-realization.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Surya_statue_at_Konark_Sun_Temple.jpg/800px-Surya_statue_at_Konark_Sun_Temple.jpg",
+    "tags": ["gita", "surya", "bhagavatam"],
+    "contentKey": "surya_gita"
+  },
+  {
+    "id": 23,
+    "name": "Vibhīśaṇa Gītā",
+    "description": "Found in the Ramacharitmanas, it contains the knowledge imparted by Sri Rama to Vibhishana on the battlefield, describing the chariot of dharma needed to defeat inner enemies.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vibhishana_Surrender_to_Rama.jpg/1024px-Vibhishana_Surrender_to_Rama.jpg",
+    "tags": ["gita", "rama", "ramayana", "dharma"],
+    "contentKey": "vibhisana_gita"
+  },
+  {
+    "id": 24,
+    "name": "Śakti Gītā",
+    "description": "A text where Maharshi Vedavyas explains the glories of the Divine Mother (Śakti) to other sages, elucidating her role as the supreme power of the universe.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Goddess_Durga_with_Her_Vahan_Lion_in_Her_Right_Hand_Holding_a_Sword_and_Conch_Shell.jpg/800px-Goddess_Durga_with_Her_Vahan_Lion_in_Her_Right_Hand_Holding_a_Sword_and_Conch_Shell.jpg",
+    "tags": ["gita", "shakti", "devi", "philosophy"],
+    "contentKey": "sakti_gita"
+  },
+  {
+    "id": 25,
+    "name": "Rūdra Gītā",
+    "description": "Songs sung by Lord Shiva in the fourth canto of Srimad Bhagavatam, expressing profound prayers and praises to Lord Vishnu.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Shiva_at_Elephanta_Caves.jpg/800px-Shiva_at_Elephanta_Caves.jpg",
+    "tags": ["gita", "shiva", "vishnu", "bhagavatam"],
+    "contentKey": "rudra_gita"
+  },
+  {
+    "id": 26,
+    "name": "Veṇu Gīta",
+    "description": "The 'Song of Krishna's Flute' from the Tenth Canto of Srimad-Bhagavatam. The gopis sing the glories of the sound of Sri Krishna's flute as he enters the forest of Vrindavan.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Krishna_fluting_for_the_gopis.jpg/800px-Krishna_fluting_for_the_gopis.jpg",
+    "tags": ["gita", "krishna", "bhagavatam", "bhakti"],
+    "contentKey": "venu_gita"
+  },
+  {
+    "id": 30,
+    "name": "Chaitanya Upnishad",
+    "description": "Chaitanya Upnishad",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "chaitanya_upnishad"
+  },
+  {
+    "id": 31,
+    "name": "Isho Panishad",
+    "description": "The text discusses the Atman (Self) theory of Hinduism, and is referenced by both Dvaita (dualism) and Advaita (non-dualism) sub-schools of Vedanta.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "isha_upanishad"
+  },
+  {
+    "id": 32,
+    "name": "Ken Upanishada",
+    "description": "Discussion of Brahman with attributes and without attributes, and for being a treatise on 'purely conceptual knowledge'. It asserts that the efficient cause of all the gods, symbolically envisioned as forces of nature, is Brahman.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "ken_upanishada"
+  },
+  {
+    "id": 33,
+    "name": "Katha Upanishada",
+    "description": "The son of Sage Vajasravasa, who meets Yama (the deity of death). Their conversation evolves to a discussion of the nature of man, knowledge, Atman (Self) and moksha (liberation).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "katha_upanishada"
+  },
+  {
+    "id": 34,
+    "name": "Prashna Upanishada",
+    "description": "The Prashna Upanishad contains six Prashna (questions), and each is a chapter with a discussion of answers.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "prashna_upanishada"
+  },
+  {
+    "id": 35,
+    "name": "Mundaka Upanishad",
+    "description": "The Mundaka Upanishad is a Sanskrit Vedic text that is part of the Atharva Veda. It is a primary Upanishad and is listed as number 5 in the Muktika canon of 108 Upanishads. It is one of the most widely translated Upanishads. The Mundaka Upanishad is a collection of philosophical poems that teach meditation and spiritual knowledge. It is made up of three main parts, or mundakas. The first part explains the science of higher and lower knowledge.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mundaka_upanishad"
+  },
+  {
+    "id": 36,
+    "name": "Mandukya Upanishada",
+    "description": "Chronology and the philosophical relationship between Hinduism and Buddhism.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mandukya_upanishada"
+  },
+  {
+    "id": 37,
+    "name": "Aitreya Upanishada",
+    "description": "The Aitareya Upanishad is part of the Rigveda and expounds profound philosophical teachings. It explores the nature of the Self (Atman) and the ultimate reality (Brahman), emphasizing the interconnectedness of the individual with the cosmos.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "aitreya_upanishada"
+  },
+  {
+    "id": 38,
+    "name": "Taittiriya Upanishada",
+    "description": "Includes verses that are partly prayers and benedictions, partly instruction on phonetics and praxis, partly advice on ethics and morals given to graduating students from ancient Vedic gurukula-s (schools), partly a treatise on allegory, and partly philosophical instruction.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "taittiriya_upanishada"
+  },
+  {
+    "id": 39,
+    "name": "Chhandogya Upanishada",
+    "description": "Deal with metaphysical questions such as the nature of reality and Self.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "chhandogya_upanishada"
+  },
+  {
+    "id": 40,
+    "name": "Brihadaranyaka Upanishada",
+    "description": "The Brihadaranyaka Upanishad is a treatise on Ātman (Self), includes passages on metaphysics, ethics, and a yearning for knowledge that influenced various Indian religions, ancient and medieval scholars, and attracted secondary works such as those by Adi Shankara and Madhvacharya.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "brihadaranyaka_upanishada"
+  },
+  {
+    "id": 41,
+    "name": "Svetasvatara Upanishad",
+    "description": ".The Svetasvatara Upanishad is an ancient Sanskrit text that is part of the Krishna Yajur Veda. It is the 14th Upanishad in the Muktika canon of 108 Upanishads. The Svetasvatara Upanishad is made up of 113 verses in six chapters.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "svetasvatara_upanishad"
+  },
+  {
+    "id": 42,
+    "name": "Atharvashikha Upanishad",
+    "description": "Composed by Sage Atharvan, to whom the Atharvaveda is eponymously attributed. The text discusses and equates Om symbol to Shiva as the Supreme Being and Brahman, explaining the spirituality behind its chanting and meditation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "atharvashikha_upanishad"
+  },
+  {
+    "id": 43,
+    "name": "Atharvashirsha Upanishad",
+    "description": "It is a Sanskrit text that is associated with the Atharvaveda. It is classified as a Shaiva Upanishad that focuses on the god Rudra.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "atharvashirsha_upanishad"
+  },
+  {
+    "id": 44,
+    "name": "Atmabodha Upanishad",
+    "description": "The Atmabodha Upanishad is a Vishnu Upanishad that praises the Narayana Mantra. In the Muktika list of 108 Upanishads to be studied for salvation, it is number 42.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "atmabodha_upanishad"
+  },
+  {
+    "id": 45,
+    "name": "Avyakta Upanishad",
+    "description": "It contains information about cosmology and how the universe evolved after creation. It also asserts the premise of the Rigveda's Nasadiya Sukta that no one knows the origin of the universe or if the Supreme Being had any role in creating it.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "avyakta_upanishad"
+  },
+  {
+    "id": 46,
+    "name": "Advayatarak Upanishada",
+    "description": "The text discusses three goals of introspection, Taraka yoga and the nondual nature of Reality (Brahman). The text also includes verses on Raja yoga, and Kundalini Tantra. The Upanishad also states that maya or illusion is the reason for the 'differentiation' of the living from God.[",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "advayatarak_upanishada"
+  },
+  {
+    "id": 47,
+    "name": "Adhyatma Upanishad",
+    "description": "It is classified as a Samanya (non-sectarian) Upanishad. The Adhyatma Upanishad is about spiritualism and the Atma. Some of its teachings include: The Aja (unborn) is located in the heart The Aja pervades the bodies of Prithvi, the waters, Vayu, Akasa, Manas, Buddhi, Ahamkara, Citta, Aksara, Avyakta, and Mrtyu Death is the body of the Aja The Aja is the inner-self of all beings The path of realization begins from the heart",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "adhyatma_upanishad"
+  },
+  {
+    "id": 48,
+    "name": "Akshi Upanishad",
+    "description": "It is part of the Krishna Yajur Veda and is one of the 21 Samanya (general) Upanishads. The text is structured in two sections and is a discourse from the Sun god (Surya).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "akshi_upanishad"
+  },
+  {
+    "id": 49,
+    "name": "Annapurna Upanishad",
+    "description": "Discourse between yogin Nidagha and Vedic sage Ribhu. The first chapter presents a series of questions such as 'Who am I? How did the universe come about? what is the meaning of birth, death and life? what is freedom and liberation?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "annapurna_upanishad"
+  },
+  {
+    "id": 50,
+    "name": "Atma Upanishad",
+    "description": "The Upanishad is a short text, structured as a mix of prose and verse poetry. It is presented as a sermon by the Vedic sage Angiras on body, mind, soul and Paramatma.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "atma_upanishad"
+  },
+  {
+    "id": 51,
+    "name": "Aruni Upanishad",
+    "description": "It deals with the cultural phenomenon of a Sannyasi (Hindu monk), a practitioner of Sannyasa or renunciation.[2] The Upanishad also outlines the character and lifestyle of a Paramahamsa, the monk who has achieved the highest state of spirituality.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "aruni_upanishad"
+  },
+  {
+    "id": 52,
+    "name": "Arunik Upanishad",
+    "description": "It is a sanyasa Upanishad and is ranked 16th in the list of 108. The Upanishad discusses the importance of the unification of the soul with the Supreme Being.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "arunik_upanishad"
+  },
+  {
+    "id": 53,
+    "name": "Aatmbodh Upanishad",
+    "description": "begins with a hymn to the god Vishnu (Narayana), but then focuses on its core theme Atmabodha, meaning 'State of knowledge of the inner self'.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "aatmbodh_upanishad"
+  },
+  {
+    "id": 54,
+    "name": "Amritnada Upanishad",
+    "description": "आत्मा के महत्वपूर्ण पहलुओं, ध्यान, और आध्यात्मिक शिक्षा के मार्ग का विचार किया गया है।",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "amritnada_upanishad"
+  },
+  {
+    "id": 55,
+    "name": "Akshamalika Upanishada",
+    "description": "The Upanishad describes akshamala (rosary) and its importance in japa, the meditative repetition of a mantra. The text mentions different types of rosaries, their significance, the relevant mantras, and the symbolism.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "akshamalika_upanishada"
+  },
+  {
+    "id": 56,
+    "name": "Bhasma Upanishad",
+    "description": "The Bhasmajabala Upanishad is the 87th of the 108 Upanishads. It describes sacred ash (Vibhuti or Bhasma) and Rudraksha. The Upanishad also includes the line 'Agni is Bhasma, Vayu is Bhasma'.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "bhasma_upanishad"
+  },
+  {
+    "id": 57,
+    "name": "Brahma Viddya Upanishada",
+    "description": "The Upanishad mainly explains the structure of Om, aspect of its sound, its placement, its beginning and end, and the significance of the Laya (fading away of its sound). Om is Brahman (ultimate reality), asserts the text",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "brahma_viddya_upanishada"
+  },
+  {
+    "id": 58,
+    "name": "Bhavana Upanishada",
+    "description": "The text is classified as one of the Shakta Upanishads and attached to the Atharvaveda. The Upanishad identifies the human body as Srichakra yantra and elaborates on this theme,[1] and its worship.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "bhavana_upanishada"
+  },
+  {
+    "id": 59,
+    "name": "Bhikshuk Upanishad",
+    "description": "The Upanishad describes four kinds of sannyasins (Hindu monks), their eating habits and lifestyle. Yoga is the path of spiritual liberation for all four.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "bhikshuk_upanishad"
+  },
+  {
+    "id": 60,
+    "name": "Bahvrich Upanishad",
+    "description": "Assert the feminine as non-different, non-dual (Advaita) from transcendent reality, she is the primary and the material cause of all existence, and the text belongs to the Shaktadavaitavada tradition",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "bahvrich_upanishad"
+  },
+  {
+    "id": 61,
+    "name": "Devi Upanishada",
+    "description": "States that the Goddess is the Brahman (ultimate metaphysical Reality), and from her arise Prakṛti (matter) and Purusha (consciousness). She is bliss and non-bliss, the Vedas and what is different from it, the born and the unborn, and all of the universe.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "devi_upanishada"
+  },
+  {
+    "id": 62,
+    "name": "Dhyanbindu Upanishada",
+    "description": "Discusses meditation in Yoga. It states that silence during meditation is a reminder of the infinite subtlety therein. It asserts there is an Atman (soul) in every living being, and that a Yogi must seek to understand both the part as well as the whole of everything.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "dhyanbindu_upanishada"
+  },
+  {
+    "id": 63,
+    "name": "Darshan Upanishad",
+    "description": "It is one of the 20 Yoga Upanishads in the four Vedas. It is attached to the Samaveda. The Darshana Upanishad is the 90th of 108 Upanishads in the Muktika Upanishad order. It has 109 verses in 10 chapters.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "darshan_upanishad"
+  },
+  {
+    "id": 64,
+    "name": "Dakshinamurti Upanishada",
+    "description": "Asserting that Dakshinamurti is an aspect of Shiva, an aid to the liberating knowledge that Shiva is within oneself as Atman (self, soul), and everything one does in daily life is an offering to this Shiva.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "dakshinamurti_upanishada"
+  },
+  {
+    "id": 65,
+    "name": "Ekakshar Upanishada",
+    "description": "Discusses Om (Pranava) as the Ultimate Reality Brahman, equating it to the imperishable truth and sound, the source of the universe, the Uma, the Shiva, the Narayana, the Atman (soul) that resides in one's heart.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "ekakshar_upanishada"
+  },
+  {
+    "id": 66,
+    "name": "Ganpati Upanishad",
+    "description": "Ganpati Upanishad",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "ganpati_upanishad"
+  },
+  {
+    "id": 67,
+    "name": "Garbh Upanishada",
+    "description": "Exclusively comments on medical and physiology-related themes, dealing with the theory of the formation and development of the human embryo and human body after birth.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "garbh_upanishada"
+  },
+  {
+    "id": 68,
+    "name": "Garud Upanishada",
+    "description": "Has mantras and charms that are said to cure poison. The text says that its charms can not only prevent and remedy snakebite and the venom, but also poison from any other source like other poisonous animals, weapons and supernatural beings.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "garud_upanishada"
+  },
+  {
+    "id": 69,
+    "name": "Gopaltapani Upanishad",
+    "description": ".The Gopāla-tāpanī Upaniṣad is a Sanskrit text and one of the later Upanishads attached to the Atharvaveda. It is one of the four Tāpinī Upanishads, along with Nṛsiṁha, Rāma, and Tripurā. The central character of the text is Radha, who is described as the Shakti of Krishna. The text also discusses Gopala Krishna and Radha's devotion.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "gopaltapani_upanishad"
+  },
+  {
+    "id": 70,
+    "name": "Hamsa Upanishad",
+    "description": ".It is a Sanskrit text that is part of the Shukla Yajur Veda. The Hamsa Upanishad is the 15th Upanishad in the Muktikha Upanishad list of 108 Upanishads. It is also one of the 20 Yoga Upanishads. The Hamsa Upanishad is a conversation between a guru and his disciple.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "hamsa_upanishad"
+  },
+  {
+    "id": 71,
+    "name": "Hayagriva Upanishad",
+    "description": "It is dedicated to Hayagriva, the horse-faced avatar of the god Vishnu. The Upanishad is associated with the Atharvaveda and belongs to the Vaishnava sect, which worships Vishnu.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "hayagriva_upanishad"
+  },
+  {
+    "id": 72,
+    "name": "Jabal Upanishada",
+    "description": "Discusses the city of Banaras in spiritual terms, as Avimuktam. It describes how that city became holy, then adds that the holiest place to revere is one within – the Atman (soul, self).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "jabal_upanishada"
+  },
+  {
+    "id": 73,
+    "name": "Kaivalya Upanishada",
+    "description": "Upanishad extols Shiva, aloneness and renunciation, describes the inner state of man in his personal spiritual journey detached from the world. The text is notable for presenting Shaivism in Vedanta, discussing Atman (Self)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kaivalya_upanishada"
+  },
+  {
+    "id": 74,
+    "name": "Kundika Upanishada",
+    "description": "Mentions ancient cultural and religious Hindu traditions. It describes renunciation as a stage of life where a man lives like a monk yogi, sleeps on sand and near temples, remain calm and kind no matter what others do to him",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kundika_upanishada"
+  },
+  {
+    "id": 75,
+    "name": "Kshurika Upanishada",
+    "description": "Includes sections on Yoga postures, breath exercises and withdrawal of senses from outside to inside as a means to cleanse the body and mind.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kshurika_upanishada"
+  },
+  {
+    "id": 76,
+    "name": "Kathrudhra Upanishada",
+    "description": "Important aspects of the soul, meditation, and the path of spiritual education are considered.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kathrudhra_upanishada"
+  },
+  {
+    "id": 77,
+    "name": "Kalisantaran Upanishada",
+    "description": "Text's central mantra, known as Hare Krishna, or Mahā ('Great'), Mantra, was given in the 16th century to Chaitanya Mahaprabhu at his initiation in Gaya",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kalisantaran_upanishada"
+  },
+  {
+    "id": 78,
+    "name": "Kalagni Rudra Upanishad",
+    "description": "Extols the Tripundra and tells about the procedure for applying Vibhuti (sacred ash) as Tripundra on various parts of the body with the associated mantras and rites.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kalagni_rudra_upanishad"
+  },
+  {
+    "id": 79,
+    "name": "Kaushitaki Brahman Upanishada",
+    "description": "Asserts that 'external rituals such as Agnihotram offered in the morning and in the evening, must be replaced with inner Agnihotram, the ritual of introspection'.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kaushitaki_brahman_upanishada"
+  },
+  {
+    "id": 80,
+    "name": "Mahaa Upanishada",
+    "description": "Describes Vishnu as the highest being, and above Brahma. Both groups of texts, however, use reverential words of all Hindu gods, and assert them to be the same Atman-Brahman.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mahaa_upanishada"
+  },
+  {
+    "id": 81,
+    "name": "Mantrik Upanishada",
+    "description": "Explains the importance of using meditation and mantras to understand the unique nature of the soul.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mantrik_upanishada"
+  },
+  {
+    "id": 82,
+    "name": "Maitreya Upanishada",
+    "description": "Spiritual knowledge has been preached to Brahmins, disciples of Maharishi Maitreya.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "maitreya_upanishada"
+  },
+  {
+    "id": 83,
+    "name": "Mahavakya Upanishada",
+    "description": "Describes the nature of Atman (self, soul) and Brahman (ultimate reality), then asserts that they are identical and liberation is the state of fully understanding this identity.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mahavakya_upanishada"
+  },
+  {
+    "id": 84,
+    "name": "Mudgala Upanishad",
+    "description": "It is classified as a Samanya Upanishad and is attached to the Rigveda. The Mudgala Upanishad is one of two Upanishads that discuss the Purusha Sukta of Rigveda. The Mudgala Upanishad describes certain terms used in the Purusha Sukta and explains the Purusha Sukta Upanishad in detail. It is the 57th Upanishad in the Muktika list of 108 Upanishads to be studied for salvation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mudgala_upanishad"
+  },
+  {
+    "id": 85,
+    "name": "Muktika Upanishad",
+    "description": "The Muktikā Upanishad is a dialogue between Rama and Hanuman that explores the concept of mukti. The Muktikā is a collection of 108 Upanishads, which have been available in print since 1883 CE in Telugu. The Muktikā also includes a list of the 108 Upanishads that should be studied for salvation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "muktika_upanishad"
+  },
+  {
+    "id": 86,
+    "name": "Maitrayani Upanishada",
+    "description": "Discuss metaphysical questions relating to Atman (Self), while the fifth to seventh Prapathaka are supplements.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "maitrayani_upanishada"
+  },
+  {
+    "id": 87,
+    "name": "Mandal Brahman Upanishad",
+    "description": "Describes Yoga as a means to self-knowledge, the highest wisdom. Its text is structured as a teaching from Narayana (Purusha in Sun, Vishnu) to sage Yajnavalkya.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "mandal_brahman_upanishad"
+  },
+  {
+    "id": 88,
+    "name": "Nirvana Upanishada",
+    "description": "Describes the sannyasi (renouncer), his character and his state of existence as he leads the monastic life in the Hindu Ashrama tradition.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "nirvana_upanishada"
+  },
+  {
+    "id": 89,
+    "name": "Niralamb Upanishada",
+    "description": "Defines and explains 29 Upanishadic concepts. It is notable for stating that men, women, all living beings, Hindu gods such as Vishnu and Rudra (Shiva), are in their essence just the same ultimate reality that is Brahman.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "niralamb_upanishada"
+  },
+  {
+    "id": 90,
+    "name": "Narsimhatapani Upanishad",
+    "description": "Narsimhatapani Upanishad.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "narsimhatapani_upanishad"
+  },
+  {
+    "id": 91,
+    "name": "Narayana Upanishada",
+    "description": "Asserts that 'all gods, all rishis, and all beings are born from Narayana, and merge into Narayana'.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "narayana_upanishada"
+  },
+  {
+    "id": 92,
+    "name": "Nadabindu Upanishada",
+    "description": "Composed in poetic verse style. The text, in both versions of the manuscripts, opens with a metaphorical comparison of Atman as a Hamsa bird , comparing both to the Om symbol and the Samkhya theory of three Gunas",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "nadabindu_upanishada"
+  },
+  {
+    "id": 93,
+    "name": "Paingal Upanishada",
+    "description": "Presented as a discourse from the Vedic sage Yajnavalkya to his student Paingala, who has lived at Yajnavalkya's Gurukul",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "paingal_upanishada"
+  },
+  {
+    "id": 94,
+    "name": "Pranav Upanishada",
+    "description": "The importance of 'Om' has been explained in this Upanishad.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "pranav_upanishada"
+  },
+  {
+    "id": 95,
+    "name": "Pashupat Upanishada",
+    "description": "Repeatedly uses Hamsa for its concepts. The text asserts that the supreme soul (Brahman) is of the nature of Hamsa, it migrates. Om, states the text, is the true sacred thread, and that there is no difference between Om and the Atman (soul).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "pashupat_upanishada"
+  },
+  {
+    "id": 96,
+    "name": "Parbrahma Upanishada",
+    "description": "Describes the tradition of the sacred thread and topknot hair tuft worn by housesholders and why both are abandoned by Sannyasi after they have renounced for monastic lifestyle in the Hindu Ashrama system.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "parbrahma_upanishada"
+  },
+  {
+    "id": 97,
+    "name": "Paramhans Parivajak Upanishada",
+    "description": "Mention Sannyasa in the context of Varna (classes), and describing ascetics (Hamsas) as wandering birds picking up food wherever they can find it, Paramahamsas (highest ascetics) begging and accepting food and water from all four castes without discrimination, a description similar to one found in Ashrama Upanishad.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "paramhans_parivajak_upanishada"
+  },
+  {
+    "id": 98,
+    "name": "Radhika Upanishada",
+    "description": "Radhika upanishada",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "radhika_upanishada"
+  },
+  {
+    "id": 99,
+    "name": "Ram Rahasya Upanishad",
+    "description": "Largely recited by Hanuman, who states that Rama is identical to the supreme unchanging reality Brahman, same as major Hindu deities, and the means to satcitananda and liberation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "ram_rahasya_upanishad"
+  },
+  {
+    "id": 100,
+    "name": "Rudrahridaya Upanishad",
+    "description": ".The Rudrahridaya Upanishad is a Sanskrit text from the medieval era. It is a minor Upanishad in Hinduism and is attached to the Krishna Yajurveda. It is also classified as one of the 14 Shaiva Upanishads.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "rudrahridaya_upanishad"
+  },
+  {
+    "id": 101,
+    "name": "Ram Tapini Upanishada",
+    "description": "Heavily borrows from the Vedic texts and the Principal Upanishads, praises the characters in the epic story of Rama, and then presents Om, the Rama yantra, and the Rama mantra.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "ram_tapini_upanishada"
+  },
+  {
+    "id": 102,
+    "name": "Sita Upanishad",
+    "description": "Asserting that the cosmos is Atman (soul), it resides in the heart, its awareness and self-realization emerges by Vichara (investigation into the Self) and Samadhi, the ultimate stage of meditation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "sita_upanishad"
+  },
+  {
+    "id": 103,
+    "name": "Skanda Upanishad",
+    "description": "Emphasizes there is no difference between Vishnu and Shiva – the gods of Vaishnavism and Shaivism respectively, that they are one, as are all gods.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "skanda_upanishad"
+  },
+  {
+    "id": 104,
+    "name": "Sarvsaar Upanishad",
+    "description": "The explanation of Maya is given in this Upanishad.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "sarvsaar_upanishad"
+  },
+  {
+    "id": 105,
+    "name": "Subala Upanishad",
+    "description": ".he Subala Upanishad is a Sanskrit text that is attached to the Shukla Yajurveda. It is classified as one of the Samanya Upanishads of Hinduism. The Subala Upanishad is structured into sixteen chapters and covers a range of topics, including: Cosmology, Physiology, Psychology, Metaphysics.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "subala_upanishad"
+  },
+  {
+    "id": 106,
+    "name": "Sannyasa Upanishad",
+    "description": ".related to renunciation, monastic practice, and asceticism. There are 19 Sannyasa Upanishads in the Muktika anthology of 108 Upanishads. The Sannyasa Upanishad is about the final stage of life, that of a sanyasi or a renunciate. It is part of the Atharva Veda.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "sannyasa_upanishad"
+  },
+  {
+    "id": 107,
+    "name": "Samnyasa Upanishad",
+    "description": "Samnyasa Upanishad",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "samnyasa_upanishad"
+  },
+  {
+    "id": 108,
+    "name": "Saraswati Rahasya Upanishad",
+    "description": "The Sarasvati-rahasya Upanishad is a late medieval Sanskrit text. It is one of the eight Shakta Upanishads and is embedded in the Krishna Yajurveda. The title translates to 'the Secret Knowledge of the Wisdom Goddess'.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "saraswati_rahasya_upanishad"
+  },
+  {
+    "id": 109,
+    "name": "Sri Krishna Upanishad",
+    "description": "Narrates how the god Rama took birth as Krishna, and how various divinities and virtues became people or objects in Krishna's life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "sri_krishna_upanishad"
+  },
+  {
+    "id": 110,
+    "name": "Shandilya Upanishad",
+    "description": "Focussed on Yoga techniques, and is among the most detailed in the Upanishadic corpus of texts dedicated to Yoga.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "shandilya_upanishad"
+  },
+  {
+    "id": 111,
+    "name": "Surya Upanishad",
+    "description": ".The Surya Upanishad is one of the 31 Upanishads associated with the Atharva Veda. In this Upanishad, the Sun god, Surya, is praised as the ultimate truth and reality, Brahman. The text also states that Surya is the creator, protector, and destroyer of the universe.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "surya_upanishad"
+  },
+  {
+    "id": 112,
+    "name": "Saubhagya Laxmi Upanishad",
+    "description": ".The Saubhagyalakshmi Upanishad is part of the Rig Veda. It describes the worship of the Goddess of Prosperity, also known as Laxmi or Shri. The Upanishad also includes esoteric teachings about Lakshmi and abundance.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "saubhagya_laxmi_upanishad"
+  },
+  {
+    "id": 113,
+    "name": "Savitri Upanishad",
+    "description": ".It is associated with the Samaveda and is one of the Samanya Upanishads. The title of the text is related to Sun god.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "savitri_upanishad"
+  },
+  {
+    "id": 114,
+    "name": "Shukrahasya Upanishada",
+    "description": "Asserts that it has six parts and is structured as a discourse between Shiva and Shuka – the son of Vedic sage Vyasa. Shukha is celebrated in Hinduism as the one who became a sannyasi (Hindu monk) at a very young age.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "shukrahasya_upanishada"
+  },
+  {
+    "id": 115,
+    "name": "Shwetashwar Upanishad",
+    "description": "Opens with metaphysical questions about the primal cause of all existence, its origin, its end, and what role, if any, time, nature, necessity, chance, and the spirit had as the primal cause.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "shwetashwar_upanishad"
+  },
+  {
+    "id": 116,
+    "name": "Shiv Sankalp Upanishada",
+    "description": "It is part of the Vajsaneyi Samhita of the Yajur Veda. The Upanishad is a prayer to the mind.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "shiv_sankalp_upanishada"
+  },
+  {
+    "id": 117,
+    "name": "Tripada Vibhuti Mahanarayana Upanishad",
+    "description": "Glorifying both Narayana and Rudra, both as the first equivalent embodiment of Brahman, the concept of ultimate, impersonal, and transcendental reality in Hinduism. The Upanishad uses Vedanta terminology",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "tripada_vibhuti_mahanarayana_upanishad"
+  },
+  {
+    "id": 118,
+    "name": "Turiyatit Upanishada",
+    "description": "Notable for its description of the nature and life of a self-realized monk called Turiyatita-Avadhuta, literally a totally liberated man, also called a Avadhuta or Jivanmukta.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "turiyatit_upanishada"
+  },
+  {
+    "id": 119,
+    "name": "Tripuratapani Upanishad",
+    "description": ".The Tripura Tapini Upanishad is a medieval Sanskrit text and a minor Upanishad in Hinduism. It is one of the eight Shakta Upanishads and is connected to the Atharvaveda. The Upanishad is a well-known text related to tantra and goddesses.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "tripuratapani_upanishad"
+  },
+  {
+    "id": 120,
+    "name": "Tripur Upanishada",
+    "description": "Places the goddess Tripura Sundari as the ultimate Shakti (energy, power) of the universe. She is described as the supreme consciousness, above Brahma, Vishnu and Shiva.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "tripur_upanishada"
+  },
+  {
+    "id": 121,
+    "name": "Tejobindu Upanishada",
+    "description": "Notable for its focus on meditation, calling dedication to bookish learning as rubbish, emphasizing practice instead, and presenting the Vedanta doctrine from Yoga perspective.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "tejobindu_upanishada"
+  },
+  {
+    "id": 122,
+    "name": "Vajrasuchi Upanishada",
+    "description": "Discusses the four varnas. It is notable for being a sustained philosophical attack against the division of human beings",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "vajrasuchi_upanishada"
+  },
+  {
+    "id": 123,
+    "name": "Vasudeva Upanishad",
+    "description": "The Vasudeva Upanishad is written in Sanskrit. It is part of the Sama Veda and belongs to the Vaishnava sect. The Vaishnava sect worships Vishnu and his avatar Krishna.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "vasudeva_upanishad"
+  },
+  {
+    "id": 124,
+    "name": "Yogtatva Upanishada",
+    "description": "Shares ideas with the Yogasutra, Hatha Yoga, and Kundalini Yoga. It includes a discussion of four styles of yoga: Mantra, Laya, Hatha yoga and Raja.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "yogtatva_upanishada"
+  },
+  {
+    "id": 125,
+    "name": "Yagyavalkya Upanishada",
+    "description": "Describes the state and expected behavior from a sannyasi as he leads the monastic life after renouncing all material and social ties.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "yagyavalkya_upanishada"
+  },
+  {
+    "id": 126,
+    "name": "Yoga Kundalini Upanishada",
+    "description": "Describing Hatha and Lambika yoga; the last chapter is primarily about the quest of self-knowledge, Atman, Brahman (the Non-dual Brahman) and living liberation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "yoga_kundalini_upanishada"
+  },
+  {
+    "id": 127,
+    "name": "Yoga Chudamani Upanishada",
+    "description": "Assert its goal to be the attainment of Kaivalya (liberating aloneness). The first seventy verses present its theories of Kundalini yoga including a discussion of chakras (energy centers), nadis (blood and energy vessels), prana vayus (life force air), mudras and shakti (power).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "yoga_chudamani_upanishada"
+  },
+  {
+    "id": 128,
+    "name": "Yoga Shikha Upanishad",
+    "description": "The Yoga Shikha Upanishad is a Sanskrit text and a minor Upanishad in Hinduism. It is part of the Krishna Yajur Veda and is the 63rd Upanishad in the Muktika Upanishad order. The text is also known as Yogasikhopanishad",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "yoga_shikha_upanishad"
+  },
+  {
+    "id": 129,
+    "name": "Essence of Ashtaadasha Upanishads",
+    "description": "Essence of Ashtaadasha Upanishads",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "essence_of_ashtaadasha_upanishads"
+  },
+  {
+    "id": 130,
+    "name": "Essays On Upanishads",
+    "description": "Essays On Upanishads",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "essays_on_upanishads"
+  },
+  {
+    "id": 131,
+    "name": "Introduction To Upanishas",
+    "description": "Introduction To Upanishas",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "introduction_to_upanishas"
+  },
+  {
+    "id": 132,
+    "name": "Upanishado Ka Bodh",
+    "description": "Upanishado Ka Bodh",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "upanishado_ka_bodh"
+  },
+  {
+    "id": 133,
+    "name": "Upanishad Prachin Kathae",
+    "description": "Upanishad Prachin Kathae",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "upanishad_prachin_kathae"
+  },
+  {
+    "id": 134,
+    "name": "The Upanishad",
+    "description": "The Upanishad",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "the_upanishad"
+  },
+  {
+    "id": 135,
+    "name": "Upanishado Ka Sandesh",
+    "description": "Upanishado Ka Sandesh",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "upanishado_ka_sandesh"
+  },
+  {
+    "id": 136,
+    "name": "Upanishado Ke Chaudah Ratan",
+    "description": "Upanishado Ke Chaudah Ratan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "upanishado_ke_chaudah_ratan"
+  },
+  {
+    "id": 137,
+    "name": "Kabujika Upanishad",
+    "description": "Kabujika Upanishads",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "kabujika_upanishad"
+  },
+  {
+    "id": 138,
+    "name": "The Principle Upanishads",
+    "description": "The Principle Upanishads",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "the_principle_upanishads"
+  },
+  {
+    "id": 139,
+    "name": "Philosophy of Upanishads",
+    "description": "Philosophy of Upanishads",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "philosophy_of_upanishads"
+  },
+  {
+    "id": 140,
+    "name": "Metaphysics of Upanishads",
+    "description": "Metaphysics of Upanishads",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ramana_Maharshi_jnani.jpg/800px-Ramana_Maharshi_jnani.jpg",
+    "tags": ["upanishad"],
+    "contentKey": "metaphysics_of_upanishads"
+  },
+  {
+    "id": 141,
+    "name": "Shrimad Bhagwat Maha Puran",
+    "description": "Sukavedva Gosvami to Parikshit Maharaj. This sacred scripture glorifies Lord Krishna's divine leelas, imparts spiritual wisdom, and emphasizes the path of devotion for liberation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "bhagavata_purana"
+  },
+  {
+    "id": 142,
+    "name": "Shiva Purana",
+    "description": "Intricately weaves the celestial narratives of Shiva ji and Mother Parvati, offering profound insights into their divine manifestations. This sacred text is a symphony of glorification, portraying the cosmic dance of Shiva and the eternal love between the divine couple.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "shiva_purana"
+  },
+  {
+    "id": 143,
+    "name": "Agni Purana",
+    "description": "Hindu scripture encompassing rituals, mythology, and guidance on righteous living. This ancient text serves as a comprehensive guide to life and spirituality.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "agni_purana"
+  },
+  {
+    "id": 144,
+    "name": "Bhavishya Purana",
+    "description": "A prophetic Hindu scripture. It foretells future events, spanning cosmology and mythology, providing valuable insights on righteous living and spiritual wisdom.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "bhavishya_purana"
+  },
+  {
+    "id": 145,
+    "name": "Brahma Purana",
+    "description": "It is listed as the first Maha-Purana in all the anthologies, and therefore also called Adi Purana. Another title for this text is Saura Purana, because it includes many chapters related to Surya or the Sun God. The Brahma Purana is actually just a compilation of geographical Mahatmya",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "brahma_purana"
+  },
+  {
+    "id": 146,
+    "name": "Brahma Vaivarta Purana",
+    "description": "Beautifully narrates the divine Radha-Krishna leelas, including the Radha-Krishna vivah (marriage). This Hindu scripture intertwines mythology with spiritual wisdom, revealing profound insights on the divine love and play of Radha and Krishna.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "brahma_vaivarta_purana"
+  },
+  {
+    "id": 147,
+    "name": "Garuda Purana",
+    "description": "Imparts knowledge on topics like the afterlife, karma, and specific details about hells. This Hindu scripture serves as a guide, offering insights into the consequences of actions and the journey beyond death.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "garuda_purana"
+  },
+  {
+    "id": 148,
+    "name": "Kurma Purana",
+    "description": "Kurma Purana recounts Lord Vishnu's Kurma avatar, the divine tortoise. This avatar symbolizes cosmic harmony, emphasizing the importance of dharma, ethical living, and spiritual wisdom in Sanatana Dharma.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "kurma_purana"
+  },
+  {
+    "id": 149,
+    "name": "Linga Purana",
+    "description": "Elucidates the significance of the Lingam, symbolizing Lord Shiva. This sacred text delves into the essence of devotion, rituals, and the cosmic power embodied in the Linga, imparting profound spiritual wisdom.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "linga_purana"
+  },
+  {
+    "id": 150,
+    "name": "Matsya Purana",
+    "description": "Matsya Avatar of Lord Vishnu. Taken as a fish, this avatar rescued the scriptures and the sage Manu during a deluge, symbolizing preservation of knowledge and life, showcasing divine compassion and protection.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "matsya_purana"
+  },
+  {
+    "id": 151,
+    "name": "Markandeya Purana",
+    "description": "Centers around sage Markandeya's profound conversations with deities. It offers a rich tapestry of ancient wisdom through the sage's interactions with celestial beings.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "markandeya_purana"
+  },
+  {
+    "id": 152,
+    "name": "Narada Purana",
+    "description": "Narada Purana resonates with celestial tales, including the divine leelas of Sage Narada. Through enchanting narratives, it unveils Narada Muni's celestial exploits, imparting timeless wisdom and spiritual insights in the cosmic symphony of this sacred scripture.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "narada_purana"
+  },
+  {
+    "id": 153,
+    "name": "Padma Puran",
+    "description": "Predominantly illuminates the divine nature of Ishwara. This sacred text, steeped in a satvik mode, delves into various facets of Ishwara's manifestations, offering spiritual insights and guiding seekers on the path of profound devotion and understanding.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "padma_puran"
+  },
+  {
+    "id": 154,
+    "name": "Skanda Purana",
+    "description": "Unfolds divine tales, encompassing Lord Kartikeya's exploits. It delves into diverse realms, weaving narratives of cosmology, rituals, and spiritual teachings.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "skanda_purana"
+  },
+  {
+    "id": 155,
+    "name": "Vayu Purana",
+    "description": "stands as a significant Hindu scripture. Vayu, the wind god, as its primary focus. This sacred text serves as a valuable source of authentic knowledge, providing insights into the cosmic order and the divine.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "vayu_purana"
+  },
+  {
+    "id": 156,
+    "name": "Varaha Purana",
+    "description": "Unfolds the divine tales, prominently featuring Varaha's avatar. In this incarnation, Vishnu takes the form of a boar to rescue the Earth goddess, symbolizing the cosmic order and the protection of righteousness.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "varaha_purana"
+  },
+  {
+    "id": 157,
+    "name": "Vamana Purana",
+    "description": "Shares the divine tale of Lord Vamana's avatar. As Lord Vishnu in the form of a dwarf Brahmin, Vamana not only subdued the mighty demon king Bali but also transformed Bali's heart with humility, symbolizing the divine power of grace and benevolence.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "vamana_purana"
+  },
+  {
+    "id": 158,
+    "name": "Vishnu Purana",
+    "description": "Narrating divine tales and exploring the vast cosmos. This sacred scripture glorifies Vishnu's cosmic manifestations and imparts profound know",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg/800px-ISKCON_Delhi_-_Shrimad_Bhagavatam.jpg",
+    "tags": ["purana"],
+    "contentKey": "vishnu_purana"
+  }
+]

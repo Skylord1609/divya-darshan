@@ -1,0 +1,14 @@
+
+[
+  {
+    "id": 101,
+    "name": "Ancient Shiva Cave",
+    "location": "Unknown Village, Himalayas",
+    "history": "A recently discovered cave temple believed to be over 1000 years old. Local legends say it was used by sages for meditation.",
+    "imageUrl": "https://images.unsplash.com/photo-1549626354-a21253553256?q=80&w=800&auto=format&fit=crop",
+    "lat": 30,
+    "lng": 78,
+    "submittedBy": "devotee@darshan.com",
+    "status": "pending"
+  }
+]

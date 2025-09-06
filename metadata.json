@@ -1,0 +1,9 @@
+{
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ],
+  "name": "Divya Darshan",
+  "description": "",
+  "prompt": ""
+}

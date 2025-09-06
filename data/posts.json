@@ -1,0 +1,29 @@
+
+[
+  {
+    "id": 1,
+    "userId": 2,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/A_man_in_meditation_at_the_Ganges_river%2C_Varanasi.jpg/1024px-A_man_in_meditation_at_the_Ganges_river%2C_Varanasi.jpg",
+    "caption": "Morning meditation by the Ganga in Varanasi. The energy here is truly divine. A moment of peace in the eternal city.",
+    "timestamp": "2024-07-30T07:00:00Z",
+    "likes": [1],
+    "comments": [
+      {
+        "id": 101,
+        "userId": 1,
+        "userName": "Admin",
+        "text": "Beautifully captured! The serenity is palpable.",
+        "timestamp": "2024-07-30T08:15:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Pooja_thali.jpg/1024px-Pooja_thali.jpg",
+    "caption": "Preparing for the evening aarti. Seva is the highest form of devotion. What is your favorite way to connect with the divine?",
+    "timestamp": "2024-07-29T18:30:00Z",
+    "likes": [2],
+    "comments": []
+  }
+]

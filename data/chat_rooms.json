@@ -1,0 +1,7 @@
+
+[
+  { "id": 1, "name": "satsang_general_dharma_name", "description": "satsang_general_dharma_desc", "icon": "om" },
+  { "id": 2, "name": "satsang_yoga_meditation_name", "description": "satsang_yoga_meditation_desc", "icon": "meditate" },
+  { "id": 3, "name": "satsang_bhakti_sangeet_name", "description": "satsang_bhakti_sangeet_desc", "icon": "speaker" },
+  { "id": 4, "name": "satsang_scripture_study_name", "description": "satsang_scripture_study_desc", "icon": "book-open" }
+]

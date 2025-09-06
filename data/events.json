@@ -1,0 +1,57 @@
+
+[
+    {
+      "id": 1,
+      "name": "Kumbh Mela",
+      "description": "The Kumbh Mela is a major pilgrimage and festival in Hinduism, and one of the largest peaceful gatherings in the world. It is celebrated in a cycle of approximately 12 years at four river-bank pilgrimage sites: Prayagraj (Ganges-Yamuna-Sarasvati rivers confluence), Haridwar (Ganges), Nashik (Godavari), and Ujjain (Shipra). Devotees believe that bathing in these sacred rivers during the Kumbh Mela cleanses them of all their sins.",
+      "dates": "April - May 2028 (Next at Ujjain)",
+      "location": "Ujjain, Madhya Pradesh",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A_sadhu_at_Kumbh_Mela_2019.jpg/1024px-A_sadhu_at_Kumbh_Mela_2019.jpg",
+      "crowdLevel": "Very High"
+    },
+    {
+      "id": 2,
+      "name": "Jagannath Rath Yatra",
+      "description": "The Ratha Yatra is a Hindu festival associated with Lord Jagannath held at Puri in the state of Odisha, India. It is the oldest Ratha Yatra taking place in India and the World, and it annually celebrates Lord Jagannath's, Balabhadra's, and Subhadra's journey to their aunt's temple, the Gundicha Temple. The deities are pulled on massive, elaborately decorated chariots, attracting millions of devotees.",
+      "dates": "July (Annual)",
+      "location": "Puri, Odisha",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Rath_Jatra_-_Puri%2C_India.jpg/1280px-Rath_Jatra_-_Puri%2C_India.jpg",
+      "crowdLevel": "Very High"
+    },
+    {
+      "id": 3,
+      "name": "Diwali",
+      "description": "The festival of lights, Diwali or Deepavali, is one of India's biggest festivals. It symbolizes the spiritual 'victory of light over darkness, good over evil, and knowledge over ignorance.' Homes are lit with diyas and rangoli, and families gather for feasts and fireworks.",
+      "dates": "October - November (Annual)",
+      "location": "Nationwide",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Diwali_2013_-_diya_lamp.jpg/1024px-Diwali_2013_-_diya_lamp.jpg",
+      "crowdLevel": "High"
+    },
+    {
+      "id": 4,
+      "name": "Holi",
+      "description": "Known as the 'festival of colors', Holi celebrates the arrival of spring and the eternal and divine love of Radha and Krishna. It signifies the triumph of good over evil. People playfully throw colored powder and water on each other in a joyous celebration.",
+      "dates": "March (Annual)",
+      "location": "Nationwide, especially North India",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Holi_celebrations_in_2012.jpg/1280px-Holi_celebrations_in_2012.jpg",
+      "crowdLevel": "High"
+    },
+    {
+      "id": 5,
+      "name": "Maha Shivaratri",
+      "description": "The 'Great Night of Shiva' is a major Hindu festival celebrated in honor of Lord Shiva. It marks a remembrance of 'overcoming darkness and ignorance' in life and the world. Devotees observe fasts, practice yoga, and offer prayers and bilva leaves to Lord Shiva.",
+      "dates": "February - March (Annual)",
+      "location": "Nationwide",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/A_Shiva_linga_with_a_tripundra.jpg/800px-A_Shiva_linga_with_a_tripundra.jpg",
+      "crowdLevel": "Very High"
+    },
+    {
+      "id": 6,
+      "name": "Ganesh Chaturthi",
+      "description": "This festival celebrates the birth of Lord Ganesha, the god of new beginnings and the remover of obstacles. Elaborate idols of Ganesha are installed in homes and public pandals, worshipped for ten days, and then immersed in water.",
+      "dates": "August - September (Annual)",
+      "location": "Especially Maharashtra, Goa, and South India",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/A_Ganesh_Chaturthi_celebration_in_Mumbai%2C_India.jpg/1024px-A_Ganesh_Chaturthi_celebration_in_Mumbai%2C_India.jpg",
+      "crowdLevel": "Very High"
+    }
+]

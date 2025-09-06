@@ -1,0 +1,55 @@
+
+{
+  "title": "The Upanishads",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Katha Upanishad",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत । क्षुरस्य धारा निशिता दुरत्यया दुर्गं पथस्तत्कवयो वदन्ति ॥",
+          "translation": "Arise, awake, and learn by approaching the excellent ones. The wise ones say that the path is difficult to traverse, like the sharp edge of a razor."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Mundaka Upanishad",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः । येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत्सत्यस्य परमं निधानम् ॥",
+          "translation": "Truth alone triumphs; not falsehood. Through truth the divine path is spread out by which the sages whose desires have been completely fulfilled, reach where that supreme treasure of Truth resides."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Mandukya Upanishad",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "ओमित्येतदक्षरमिदँ सर्वं तस्योपव्याख्यानं भूतं भवद्भविष्यदिति सर्वमोङ्कार एव । यच्चान्यत् त्रिकालातीतं तदप्योङ्कार एव ॥",
+          "translation": "OM, the word, is all this. A clear explanation of it is as follows: all that is past, present, and future is, indeed, OM. And whatever else there is, beyond the threefold division of time—that also is truly OM."
+        },
+        {
+          "verse": 7,
+          "sanskrit": "नान्तःप्रज्ञं नबहिःप्रज्ञं नोभयतःप्रज्ञं नप्रज्ञानघनं नप्रज्ञं नाप्रज्ञम् । अदृष्टमव्यवहार्यमग्राह्यमलक्षणमचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं प्रपञ्चोपशमं शान्तं शिवमद्वैतं चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः ॥",
+          "translation": "Turiya is not that which is conscious of the inner world, nor that which is conscious of the outer world, nor that which is conscious of both, nor that which is a mass of consciousness. It is not simple consciousness nor is It unconsciousness. It is unperceivable, unrelated, incomprehensible, uninferable, unthinkable, and indescribable. The essence of the Consciousness manifesting as the self in the three states, It is the cessation of all phenomena; It is all peace, all bliss, and non—dual. This is what is known as the Fourth (Turiya). This is the Ātman, and this has to be realized."
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Brihadaranyaka Upanishad",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ॥",
+          "translation": "From the unreal, lead me to the real. From darkness, lead me to light. From death, lead me to immortality."
+        }
+      ]
+    }
+  ]
+}

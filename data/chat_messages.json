@@ -1,0 +1,8 @@
+
+[
+  { "id": 1, "roomId": 1, "userId": 1, "userName": "Admin", "timestamp": "2024-07-29T10:00:00Z", "text": "Welcome to the General Dharma circle! Feel free to share your thoughts. Hari Om." },
+  { "id": 2, "roomId": 1, "userId": 2, "userName": "Devotee", "timestamp": "2024-07-29T10:05:00Z", "text": "Pranam! Glad to be here. What is everyone's favorite teaching from the Gita?" },
+  { "id": 3, "roomId": 2, "userId": 1, "userName": "Admin", "timestamp": "2024-07-29T10:00:00Z", "text": "Welcome yogis! Please share your favorite meditation techniques." },
+  { "id": 4, "roomId": 3, "userId": 2, "userName": "Devotee", "timestamp": "2024-07-29T10:00:00Z", "text": "Does anyone have a link to a beautiful rendition of the Hanuman Chalisa?" },
+  { "id": 5, "roomId": 4, "userId": 1, "userName": "Admin", "timestamp": "2024-07-29T10:00:00Z", "text": "Let's begin our study of the Upanishads this week. Any initial questions?" }
+]

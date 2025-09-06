@@ -1,0 +1,96 @@
+
+{
+  "title": "Bhagavad-gītā",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Observing the Armies on the Battlefield of Kurukṣetra",
+      "verses": [
+        {
+          "verse": 1,
+          "sanskrit": "धृतराष्ट्र उवाच |\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||1||",
+          "translation": "Dhṛtarāṣṭra said: O Sañjaya, after my sons and the sons of Pāṇḍu assembled in the place of pilgrimage at Kurukṣetra, desiring to fight, what did they do?"
+        },
+        {
+          "verse": 2,
+          "sanskrit": "सञ्जय उवाच |\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा |\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ||2||",
+          "translation": "Sañjaya said: O King, after looking over the army arranged in military formation by the sons of Pāṇḍu, King Duryodhana went to his teacher and spoke the following words."
+        },
+        {
+          "verse": 28,
+          "sanskrit": "अर्जुन उवाच |\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् ||28||\nसीदन्ति मम गात्राणि मुखं च परिशुष्यति |\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते ||29||",
+          "translation": "Arjuna said: My dear Kṛṣṇa, seeing my friends and relatives present before me in such a fighting spirit, I feel the limbs of my body quivering and my mouth drying up."
+        },
+        {
+            "verse": 46,
+            "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् |\nविसृज्य सशरं चापं शोकसंविग्नमानसः ||46||",
+            "translation": "Sañjaya said: Arjuna, having thus spoken on the battlefield, cast aside his bow and arrows and sat down on the chariot, his mind overwhelmed with grief."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Sāṅkhya Yoga (The Yoga of Knowledge)",
+      "verses": [
+        {
+          "verse": 13,
+          "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा |\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||13||",
+          "translation": "As the embodied soul continuously passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. A sober person is not bewildered by such a change."
+        },
+        {
+          "verse": 47,
+          "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन |\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||47||",
+          "translation": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty."
+        },
+        {
+          "verse": 71,
+          "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः |\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति ||71||",
+          "translation": "A person who has given up all desires for sense gratification, who lives free from desires, who has given up all sense of proprietorship and is devoid of false ego—he alone can attain real peace."
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "title": "Viśvarūpa-Darśana Yoga (The Vision of the Universal Form)",
+      "verses": [
+        {
+          "verse": 12,
+          "sanskrit": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता |\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ||12||",
+          "translation": "If hundreds of thousands of suns were to rise at once into the sky, their radiance might resemble the effulgence of the Supreme Person in that universal form."
+        },
+        {
+          "verse": 32,
+          "sanskrit": "श्रीभगवानुवाच |\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः |\nऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः ||32||",
+          "translation": "The Supreme Personality of Godhead said: Time I am, the great destroyer of the worlds, and I have come here to destroy all people. With the exception of you [the Pāṇḍavas], all the soldiers here on both sides will be slain."
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "title": "Bhakti Yoga (The Yoga of Devotion)",
+      "verses": [
+        {
+          "verse": 13,
+          "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च |\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ||13||",
+          "translation": "One who is not envious but is a kind friend to all living entities, who does not think himself a proprietor and is free from false ego, who is equal in both happiness and distress, who is tolerant..."
+        },
+        {
+          "verse": 14,
+          "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः |\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ||14||",
+          "translation": "...ever satisfied, self-controlled, and engaged in devotional service with determination, his mind and intelligence fixed on Me—such a devotee of Mine is very dear to Me."
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "title": "Mokṣa-Sannyāsa Yoga (The Yoga of Liberation)",
+      "verses": [
+        {
+          "verse": 66,
+          "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज |\nअहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||66||",
+          "translation": "Abandon all varieties of religion and just surrender unto Me. I shall deliver you from all sinful reactions. Do not fear."
+        }
+      ]
+    }
+  ]
+}
